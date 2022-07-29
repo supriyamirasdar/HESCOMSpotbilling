@@ -1,0 +1,214 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SBBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/lblRevenueMisc"
+        style="@style/SBRedLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblCollectionChequeConnectionId"
+            style="@style/SBSmallLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ConID" />
+
+        <TextView
+            android:id="@+id/lblCollectionChequeRRNo"
+            style="@style/SBSmallLabel"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/RRno" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtCollectionChequeConnectionId"
+            style="@style/SBLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtCollectionChequeRRNo"
+            style="@style/SBLabel"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblCollectionChequeArrears"
+            style="@style/SBSmallLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Arrears" />
+
+        <TextView
+            android:id="@+id/lblCollectionChequeBillAmount"
+            style="@style/SBSmallLabel"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/TotalBillAmount" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtCollectionChequeArrears"
+            style="@style/SBLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtCollectionChequeBillAmount"
+            style="@style/SBLabel"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblCollectionBank"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/Bank" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCollectionChequeBankSearch"
+            style="@style/SBAutoComplete"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="@string/Search"
+            android:scrollY="100sp" >
+        </AutoCompleteTextView>
+
+        <ImageView
+            android:id="@+id/imgClearBank"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/autocross" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblCollectionChequeNo"
+            style="@style/SBSmallLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ChequeDDNumber" />
+
+        <TextView
+            android:id="@+id/lblCollectionChequeDate"
+            style="@style/SBSmallLabel"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/Date" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/txtCollectionChequeNo"
+            style="@style/SBTextBox"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="@string/ChequeDDNO"
+            android:inputType="number"
+            android:maxLength="6"
+            android:singleLine="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtCollectionChequeDate"
+            style="@style/SBTextBox"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:ems="20"
+            android:hint="@string/ddmmyyyy" >
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblCollectionChequePaymentAmount"
+        style="@style/SBSmallLabel"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/PaymentAmount" />
+
+    <EditText
+        android:id="@+id/txtCollectionChequePaymentAmount"
+        style="@style/SBTextBox"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:hint="@string/PaymentAmountInINR"
+        android:inputType="number"
+        android:maxLength="5" >
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnCollectionChequeConfirm"
+            style="@style/SBButton"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            
+            android:text="@string/Confirm" />
+    </LinearLayout>
+
+</LinearLayout>

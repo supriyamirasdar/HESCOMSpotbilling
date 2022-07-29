@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "in.nsoft.hescomspotbilling",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 69,
+        "versionName": "6.90",
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "resources-debug.ap_",
+      "properties": {
+        "packageId": "in.nsoft.hescomspotbilling",
+        "split": "",
+        "minSdkVersion": "22"
+      }
+    }
+  ]
+}

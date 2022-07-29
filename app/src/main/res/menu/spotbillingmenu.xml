@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuHome"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/Home"/>
+    
+    <item
+        android:id="@+id/menuBilling"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/Billing"/>
+   
+    <item
+        android:id="@+id/menuCollections"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/Collections"/>
+    <item
+        android:id="@+id/menuReports"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/Reports"/>
+    <item
+        android:id="@+id/menuOthers"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/Others"/>
+    <item
+        android:id="@+id/menuLogout"
+        android:orderInCategory="100"
+       
+        android:showAsAction="always"
+        android:title="@string/Logout"/>
+
+</menu>

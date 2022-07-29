@@ -1,0 +1,300 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="450dp"
+    android:fillViewport="true"
+    android:focusableInTouchMode="true"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtRRNo"
+            style="@style/SBLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/RRno" />
+
+        <TextView
+            android:id="@+id/txtInstallationStatus"
+            style="@style/SBSmallLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:text="@string/installationstatus" />
+
+        <Spinner
+            android:id="@+id/ddlInstallationStatus"
+            style="@style/SBSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/txtInstallation"
+            style="@style/SBSmallLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:text="@string/installation" />
+
+        <Spinner
+            android:id="@+id/ddlInstallation"
+            style="@style/SBSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/txtMeterFixed"
+            style="@style/SBSmallLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"           
+            android:text="@string/MeterFixed" />
+
+        <Spinner
+            android:id="@+id/ddlMeterFixed"
+            style="@style/SBSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/txtMeterType"
+            style="@style/SBSmallLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/MeterType" />
+
+        <Spinner
+            android:id="@+id/ddlMeterType"
+            style="@style/SBSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/txtMeterMake"
+            style="@style/SBSmallLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/MeterMake" />
+
+        <Spinner
+            android:id="@+id/ddlMeterMake"
+            style="@style/SBSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/txtSerialNo"
+            style="@style/SBSmallLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SerialNo" />
+
+        <EditText
+            android:id="@+id/editSerialNo"
+            style="@style/SBTextBox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+            android:ems="10"
+            android:imeOptions="actionDone"           
+            android:maxLength="10" />
+
+        <TextView
+            android:id="@+id/txtMeterLocation"
+            style="@style/SBSmallLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/MeterLocation" />
+
+        <RadioGroup
+            android:id="@+id/radioMeterLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioButtonMeterLocationYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="@string/Inside"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonMeterLocationNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="@string/Outside"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        
+        <TextView
+            android:id="@+id/txtBodySealed"
+            style="@style/SBSmallLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/BodySealed" />
+
+        <RadioGroup
+            android:id="@+id/radioBodySealed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioButtonBodySealedYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="@string/Yes"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonBodySealedNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="@string/No"
+                android:textSize="20sp" />
+        </RadioGroup>
+        
+        
+        <TextView
+            android:id="@+id/txtTerminalCover"
+            style="@style/SBSmallLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TerminalCover" />
+
+        <RadioGroup
+            android:id="@+id/radioTerminalCover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioButtonTerminalCoverYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="@string/Yes"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonTerminalCoverNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="@string/No"
+                android:textSize="20sp" />
+        </RadioGroup>
+        
+        
+        
+          <TextView
+            android:id="@+id/txtTerminalCoverSealed"
+            style="@style/SBSmallLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TerminalCoverSealed" />
+
+        <RadioGroup
+            android:id="@+id/radioTerminalCoverSealed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioButtonTerminalCoverSealedYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="@string/Yes"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonTerminalCoverSealedNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="@string/No"
+                android:textSize="20sp" />
+        </RadioGroup>
+        
+        
+        <TextView
+            android:id="@+id/lblConsumerDetails"
+            style="@style/SBLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/ConsumerDetails" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/txtAdharNo"
+                style="@style/SBTextBox"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:hint="@string/AdharNo"
+                android:inputType="number"
+                android:maxLength="12" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/txtVoterId"
+                style="@style/SBTextBox"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+                android:ems="20"
+                android:hint="@string/VoterId"
+                android:maxLength="10" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/txtMobileNo"
+                style="@style/SBTextBox"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:hint="@string/MobileNo"
+                android:inputType="number"
+                android:maxLength="10" >
+            </EditText>
+
+            <Button
+                android:id="@+id/btnContinue"
+                style="@style/SBButton"
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/Continue" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

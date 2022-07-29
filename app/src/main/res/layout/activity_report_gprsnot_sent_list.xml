@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SBBackground"    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:padding="@dimen/activity_horizontal_margin"  
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblReportGPRSNotSentDetails"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Details" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    
+
+    <TextView
+        android:id="@+id/lblReportGPRSNotSentConnId"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/ConID" />
+
+    <TextView
+        android:id="@+id/lblReportGPRSNotSentStatus"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="120dp"
+        android:text="@string/Status" />
+    
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lstReportGPRSNotSentConnId"        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

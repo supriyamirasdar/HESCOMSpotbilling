@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/SBBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ReportBescomCopyPrintActivity" >
+
+   <TextView
+        android:id="@+id/txtReportBescomCopyPrint"
+        style="@style/SBLargeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"  
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" 
+        android:text="@string/HescomCopyPrint"     
+         />  
+   
+     <TextView
+        android:id="@+id/lblReportBescomCopyPrintCCBatchNo"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtReportBescomCopyPrint"        
+        android:layout_marginTop="20dp"
+        android:text="@string/BatchNo" />
+    
+     <TextView
+        android:id="@+id/txtReportBescomCopyPrintCCBatchNo"
+         style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblReportBescomCopyPrintCCBatchNo"
+        android:layout_below="@+id/lblReportBescomCopyPrintCCBatchNo"
+        android:text="Not Assigned" />
+     
+      <TextView
+        android:id="@+id/lblReportBescomCopyPrintBatchDate"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/txtReportBescomCopyPrintCCBatchNo"
+        android:layout_below="@+id/txtReportBescomCopyPrintCCBatchNo"        
+        android:text="@string/BatchDate" />
+      
+       <TextView
+        android:id="@+id/txtReportBescomCopyPrintBatchDate"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblReportBescomCopyPrintBatchDate"
+        android:layout_below="@+id/lblReportBescomCopyPrintBatchDate"
+        android:text="Not Assigned" />
+       
+       <Button
+        android:id="@+id/btnReportBescomCopyPrint"
+        style = "@style/SBButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true" 
+        android:layout_below="@+id/txtReportBescomCopyPrintBatchDate"
+        android:layout_marginTop="20dp"
+        android:text="@string/Print" />
+     
+
+</RelativeLayout>

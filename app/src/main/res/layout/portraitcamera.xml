@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/FLCamera"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <SurfaceView
+            android:id="@+id/SVCamera"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="450dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnLandscapeRetake"
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/cancel" />
+
+            <Button
+                android:id="@+id/btnLandscapeTake"
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/camera" />
+
+            <Button
+                android:id="@+id/btnLandscapeOk"
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/ok" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

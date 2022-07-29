@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created Nitish on 26/02/2014  -->
+<DropDownList>
+	<ddlItem>
+		<id>in.nsoft.hescomspotbilling.OtherBrowseListActivity</id>
+		<value>Browse File</value>
+	</ddlItem>	
+	<ddlItem>
+		<id>in.nsoft.hescomspotbilling.WriteFileToSDCardActivity</id>
+		<value>Write File to SD Card</value>
+	</ddlItem>
+	<ddlItem>
+		<id>in.nsoft.hescomspotbilling.DownloadDBToSDCardActivity</id>
+		<value>Download DB to SD Card</value>
+	</ddlItem>	 
+	<!-- <ddlItem>
+		<id>in.nsoft.hescomspotbilling.Push</id>
+		<value>Copy all Photos</value>
+	</ddlItem> -->
+	<ddlItem>
+		<id>in.nsoft.hescomspotbilling.DownloadFileFromServerActivity</id>
+		<value>Download File From Server</value>
+	</ddlItem>
+	<!-- <ddlItem>
+		<id>in.nsoft.hescomspotbilling.DownloadApkActivity</id>
+		<value>Download APP</value>
+	</ddlItem> -->
+	<ddlItem>
+		<id>in.nsoft.hescomspotbilling.MobileStatusActivity</id>
+		<value>Network Status</value>
+	</ddlItem>
+	<ddlItem>
+		<id>in.nsoft.hescomspotbilling.AboutAppActivity</id>
+		<value>About</value>
+	</ddlItem>	
+	<ddlItem>
+		<id>in.nsoft.hescomspotbilling.AboutMCCActivity</id>
+		<value>MCC Help Content</value>
+	</ddlItem>	
+	<ddlItem>
+		<id>in.nsoft.hescomspotbilling.MCCHelpActivity</id>
+		<value>Help Desk</value>
+	</ddlItem>	
+		
+</DropDownList>

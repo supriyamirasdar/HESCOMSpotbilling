@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+    <TextView
+        android:id="@+id/lblReading"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:text="@string/Reading" />
+
+    <EditText
+        android:id="@+id/txtReading"
+        style="@style/SBTextBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:hint="@string/BillConsumption_Reading"
+        android:inputType="numberDecimal"
+        android:maxLength="12" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/lblStatus"
+        style="@style/SBSmallLabel"
+         android:layout_marginTop="5sp"  
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Status" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+            
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/radioButtonDisconnected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            style="@style/SBLabel"           
+            android:text="Disconnected"
+             />
+
+        <RadioButton
+            android:id="@+id/radioButtonNotDisconnected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            style="@style/SBLabel"    
+             android:text="Not Disconnected"
+           />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvInflatorDisplayData"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

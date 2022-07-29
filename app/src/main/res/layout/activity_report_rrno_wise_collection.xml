@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/SBBackground"    
+    android:paddingLeft="@dimen/activity_horizontal_margin"    
+    tools:context=".ReportRRNoWiseCollectionActivity" >
+    
+    <TextView
+        android:id="@+id/txtReportRRNoWiseCollection"
+        style="@style/SBLargeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"  
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" 
+        android:text="@string/RRNoWiseCollectionReport"     
+         />  
+   
+     <TextView
+        android:id="@+id/lblReportRRNOWiseCollectionBatchNo"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtReportRRNoWiseCollection"        
+        android:layout_marginTop="10dp"
+        android:text="@string/RBatchNo" />
+     
+      <TextView
+        android:id="@+id/txtReportRRNOWiseCollectionBatchNo"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBaseline="@+id/lblReportRRNOWiseCollectionBatchNo"
+        android:layout_alignBottom="@+id/lblReportRRNOWiseCollectionBatchNo"
+        android:layout_toRightOf="@+id/lblReportRRNOWiseCollectionBatchNo"
+        android:text="Not Assigned" />
+      
+       <TextView
+        android:id="@+id/lblReportRRNOWiseCollectionDate"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="20dp"         
+        android:layout_below="@+id/txtReportRRNOWiseCollectionBatchNo"
+        android:layout_alignLeft="@+id/lblReportRRNOWiseCollectionBatchNo"  
+        android:text="@string/RDate" />
+     
+     
+      <TextView
+        android:id="@+id/txtReportRRNOWiseCollectionDate"
+        style="@style/SBSmallLabel"       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lblReportRRNOWiseCollectionDate"
+        android:layout_alignLeft="@+id/txtReportRRNOWiseCollectionBatchNo"  
+        android:text="Not Assigned" />
+
+     <TextView
+         android:id="@+id/lblReportRRNOWiseCollectionMRCode"
+         style="@style/SBSmallLabel"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/lblReportRRNOWiseCollectionBatchNo"
+         android:layout_below="@+id/txtReportRRNOWiseCollectionDate"        
+         android:text="@string/MRCode" />
+     
+      <TextView
+        android:id="@+id/txtReportRRNOWiseCollectionMRCode"
+        style="@style/SBSmallLabel"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lblReportRRNOWiseCollectionMRCode"
+        android:layout_alignLeft="@+id/txtReportRRNOWiseCollectionBatchNo"   
+        android:text="Not Assigned" /> 
+        
+      <TextView
+         android:id="@+id/lblReportRRNOWiseCollectionReceipts"
+         style="@style/SBSmallLabel"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/lblReportRRNOWiseCollectionMRCode"
+         android:layout_below="@+id/txtReportRRNOWiseCollectionMRCode"         
+         android:text="@string/Receipts" />
+      
+       <TextView
+        android:id="@+id/txtReportRRNOWiseCollectionReceipts"
+        style="@style/SBSmallLabel"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lblReportRRNOWiseCollectionReceipts"
+        android:layout_alignLeft="@+id/txtReportRRNOWiseCollectionBatchNo"   
+        android:text="Not Assigned" /> 
+        
+        <TextView
+         android:id="@+id/lblReportRRNOWiseCollectionTotColl"
+         style="@style/SBSmallLabel"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/lblReportRRNOWiseCollectionReceipts"
+         android:layout_below="@+id/txtReportRRNOWiseCollectionReceipts"         
+         android:text="@string/CollAmt" />
+        
+        <TextView
+        android:id="@+id/txtReportRRNOWiseCollectionTotColl"
+        style="@style/SBSmallLabel"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lblReportRRNOWiseCollectionTotColl"
+        android:layout_alignLeft="@+id/txtReportRRNOWiseCollectionBatchNo"   
+        android:text="Not Assigned" />
+
+        <Button
+         android:id="@+id/btnPrintReportDayWiseCollection"
+         style = "@style/SBButton"
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/txtReportRRNOWiseCollectionTotColl"
+         android:layout_alignRight="@+id/txtReportRRNoWiseCollection"
+         android:text="@string/Print" />
+
+       
+
+          <ListView
+              android:id="@+id/lstReportRRNOWiseCollectionList"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_below="@+id/lblReportRRNOWiseCollectionTotColl" >
+          </ListView>
+
+</RelativeLayout>

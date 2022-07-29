@@ -1,0 +1,221 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="475dp"
+    android:fillViewport="true"
+    android:focusableInTouchMode="true"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lblBlutoothDevice"
+                style="@style/SBRedLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="BluetoothStatus" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+
+            <AutoCompleteTextView
+                android:id="@+id/autoBillingSearch"
+                style="@style/SBAutoComplete"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+                android:ems="20"
+                android:hint="@string/Search"
+                android:inputType="textCapCharacters"
+                android:maxLength="15"                
+                android:scrollY="100sp" >
+
+                <requestFocus />
+            </AutoCompleteTextView>
+
+            <Button
+                android:id="@+id/btnBillingMap"
+                style="@style/SBButton"
+                android:layout_width="80dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:text="Map" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lblBillingConnectionId"
+                style="@style/SBSmallLabel"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ConID" />
+
+            <TextView
+                android:id="@+id/lblBillingRRNo"
+                style="@style/SBSmallLabel"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/RRno" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtBillingConnectionId"
+                style="@style/SBLabel"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtBillingRRNo"
+                style="@style/SBLabel"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lblBillingTariff"
+            style="@style/SBSmallLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/Tariff" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtBillingTariff"
+                style="@style/SBLabel"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtBillingMtd"
+                style="@style/SBLabel"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lblBillingLoad"
+                style="@style/SBSmallLabel"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Load" />
+
+            <TextView
+                android:id="@+id/lblBillingStatus"
+                style="@style/SBSmallLabel"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Status" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtBillingLoad"
+                style="@style/SBLabel"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtBillingStatus"
+                style="@style/SBLabel"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp" />
+        </LinearLayout>
+
+        
+
+        
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnBillingOk"
+                style="@style/SBButton"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:text="@string/Billing" />
+
+            <Button
+                android:id="@+id/btnBillingCollection"
+                style="@style/SBButton"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="25dp"
+                android:text="@string/Collections" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnBillingPrev"
+                style="@style/SBButton"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:text="@string/prev" />
+
+            <Button
+                android:id="@+id/btnBillingNext"
+                style="@style/SBButton"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="25dp"
+                android:text="@string/next" />
+        </LinearLayout>
+
+         
+    </LinearLayout>
+
+</ScrollView>

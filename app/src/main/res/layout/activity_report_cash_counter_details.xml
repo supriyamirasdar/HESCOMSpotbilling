@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/SBBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ReportCashCounterDetailsActivity" >
+
+   <TextView
+        android:id="@+id/txtReportCCDetailsReportMainHeading"
+        style="@style/SBLargeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"  
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" 
+        android:text="@string/CashCounterDetails"       
+         />  
+         
+    <TextView
+        android:id="@+id/txtReportCashCounter"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"          
+        android:layout_alignLeft="@+id/txtReportCCDetailsReportMainHeading"
+        android:layout_below="@+id/txtReportCCDetailsReportMainHeading"
+        android:layout_marginTop="20dp"
+        android:text="@string/CCNotAssigned" />  
+  
+   
+     <TextView
+        android:id="@+id/lblReportCCBatchNo"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtReportCashCounter"
+        android:layout_below="@+id/txtReportCashCounter"
+        android:layout_marginTop="20dp"
+        android:text="@string/BatchNo" />
+    
+     <TextView
+        android:id="@+id/txtReportCCBatchNo"
+         style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblReportCCBatchNo"
+        android:layout_below="@+id/lblReportCCBatchNo"
+        android:text="@string/NotAssigned" />
+     
+      <TextView
+        android:id="@+id/lblReportBatchDate"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtReportCCBatchNo"
+        android:layout_below="@+id/txtReportCCBatchNo"
+        android:layout_marginTop="10dp"
+        android:text="@string/BatchDate" />
+      
+       <TextView
+        android:id="@+id/txtReportBatchDate"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblReportBatchDate"
+        android:layout_below="@+id/lblReportBatchDate"
+         android:text="@string/NotAssigned" />
+     
+     
+     <TextView
+        android:id="@+id/lblReportStartTime"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtReportBatchDate"
+        android:layout_below="@+id/txtReportBatchDate"
+        android:layout_marginTop="10dp"
+        android:text="@string/StartTime" />
+
+    <TextView
+        android:id="@+id/txtReportStartTime"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblReportStartTime"
+        android:layout_below="@+id/lblReportStartTime"
+         android:text="@string/NotAssigned" />
+    
+    <TextView
+         android:id="@+id/lblReportEndTime"
+         style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblReportStartTime"
+        android:layout_alignBottom="@+id/lblReportStartTime"
+        android:layout_toRightOf="@+id/lblReportStartTime"
+       android:layout_marginLeft="80dp"
+        android:text="@string/EndTime" />
+
+    <TextView
+        android:id="@+id/txtReportEndTime"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblReportEndTime"
+        android:layout_below="@+id/lblReportEndTime"
+         android:text="@string/NotAssigned" />
+
+    <TextView       
+        android:id="@+id/lblReportCashLimit"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtReportStartTime"
+        android:layout_below="@+id/txtReportStartTime"
+        android:layout_marginTop="10dp"
+        android:text="@string/CashLimit" />
+    
+     <TextView
+        android:id="@+id/txtReportCashLimit"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblReportCashLimit"
+        android:layout_below="@+id/lblReportCashLimit"
+         android:text="@string/NotAssigned" />
+     
+     <TextView
+        android:id="@+id/lblReportCollectionMade"
+         style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblReportCashLimit"
+        android:layout_alignBottom="@+id/lblReportCashLimit"
+        android:layout_toRightOf="@+id/lblReportCashLimit"
+        android:layout_marginLeft="80dp"        
+        android:text="@string/CollectionMade" />
+     
+     <TextView
+        android:id="@+id/txtReportCollectionMade"
+         style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblReportCollectionMade"
+        android:layout_below="@+id/lblReportCollectionMade"
+        android:text="@string/Pending" />
+
+</RelativeLayout>

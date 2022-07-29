@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+    <TextView
+        android:id="@+id/tvInflateMtrType"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:text="@string/MeterType" />
+
+    <Spinner
+        android:id="@+id/ddlInflatorMeterType"
+        style="@style/SBSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/tvInflateMtrPhase"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:text="@string/MeterPhase" />
+
+    <Spinner
+        android:id="@+id/ddlInflatorMeterPhase"
+        style="@style/SBSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/tvInflateBatteryStatus"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/BatteryStatus" />
+
+    <Spinner
+        android:id="@+id/ddlInflatorBatteryStatus"
+        style="@style/SBSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/tvInflateMeterPlacement"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MeterPlacement" />
+
+    <Spinner
+        android:id="@+id/ddlInflatorMeterPlacement"
+        style="@style/SBSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/tvInflateMeterCondition"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MeterCondition" />
+
+    <Spinner
+        android:id="@+id/ddlInflatorMeterCondition"
+        style="@style/SBSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/tvInflateContactType"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ContactType" />
+
+    <Spinner
+        android:id="@+id/ddlInflatorContactType"
+        style="@style/SBSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/tvInflateContactNo"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ContactNo" />
+
+    <EditText
+        android:id="@+id/txtInflatorContactNo"
+        style="@style/SBTextBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:hint="@string/ContactNo"
+        android:inputType="number"
+        android:max="11" >
+    </EditText>
+
+   
+
+    <TextView
+        android:id="@+id/tvInflatorDisplayData"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

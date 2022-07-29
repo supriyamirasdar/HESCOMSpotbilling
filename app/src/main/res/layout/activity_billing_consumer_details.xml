@@ -1,0 +1,210 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/lblConsumerDetails"
+        style="@style/SBLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/ConsumerDetails" />
+
+    <TextView
+        android:id="@+id/lblRRNo"
+        style="@style/SBLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="RRNO" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/txtAdharNo"
+            style="@style/SBTextBox"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="@string/AdharNo"
+            android:inputType="number"
+            android:maxLength="12" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btnResetAadhar"
+            style="@style/SBButton"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="Reset" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/txtVoterId"
+            style="@style/SBTextBox"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+            android:ems="20"
+            android:hint="@string/VoterId"
+            android:maxLength="10" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btnResetVoter"
+            style="@style/SBButton"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="Reset" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/txtMobileNo"
+            style="@style/SBTextBox"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="@string/MobileNo"
+            android:inputType="number"
+            android:maxLength="10" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btnResetMobile"
+            style="@style/SBButton"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="Reset" />
+    </LinearLayout>
+    
+     <LinearLayout
+        android:id="@+id/lytRationCard"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/border"        
+        android:orientation="vertical" >
+        
+          <TextView
+                android:id="@+id/lblRationCardStatus"
+                style="@style/SBRedLabel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ration Card ID Status"
+                android:textSize="12dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lblRationCard"
+                style="@style/SBSmallLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ration Card Availablity"
+                android:textSize="12dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupRation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radioRationYes"
+                    style="@style/SBSmallLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Yes"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radioRationNo"
+                    style="@style/SBSmallLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:textSize="12sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lblRationCardNote"
+            style="@style/SBSmallLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="left"           
+            android:text="Enter 12 Digit Ration Card Number"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/txtRationCardNo"
+            style="@style/SBTextBox"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+            android:hint="Ration Card Number"
+            android:inputType="text"
+            android:maxLength="12" />
+    </LinearLayout>
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnContinue"
+            style="@style/SBButton"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Continue" />
+
+        <Button
+            android:id="@+id/btnRefresh"
+            style="@style/SBButton"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="Reload"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

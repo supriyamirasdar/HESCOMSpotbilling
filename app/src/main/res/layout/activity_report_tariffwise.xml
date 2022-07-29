@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin" >
+
+    <TextView
+        android:id="@+id/lblTariffwiseReport"
+        style="@style/SBLargeLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/TariffwiseReport" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblBillConsumStatus"
+            style="@style/SBSmallLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/ReadingDay" />
+
+        <Spinner
+            android:id="@+id/spinnerDaywise"
+            style="@style/SBSpinner"
+            android:layout_width="96dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lblTariff"
+                    style="@style/SBSmallLabel"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/Tariff"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/lblNoofCons"
+                    style="@style/SBSmallLabel"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/Noofcons"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/lblConsumption"
+                    style="@style/SBSmallLabel"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/Consumption"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/lblDemand"
+                    style="@style/SBSmallLabel"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/Demand"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lsttariff"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" >
+            </ListView>
+
+            <TextView
+                android:id="@+id/lbldashh"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="@string/dash" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="1dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lblTarif"
+                    style="@style/SBSmallLabel"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Total"
+                    android:textStyle="bold" />
+
+               
+
+                <TextView
+                    android:id="@+id/lblNoOfCons"
+                    style="@style/SBSmallLabel"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=""
+                    android:textStyle="bold" />
+
+               
+
+                <TextView
+                    android:id="@+id/lbltotalconsum"
+                    style="@style/SBSmallLabel"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textStyle="bold" />
+
+              
+
+                <TextView
+                    android:id="@+id/lblTotalDemand"
+                    style="@style/SBSmallLabel"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textStyle="bold" />
+
+                
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/btntariffPrint"
+        style="@style/SBButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/Print" />
+
+</LinearLayout>

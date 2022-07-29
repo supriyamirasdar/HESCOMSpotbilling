@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/SBBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CashCounterSyncActivity" >
+
+    <TextView
+        android:id="@+id/lblIMEISIMNo"
+        style="@style/SBSmallLabel"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/IMEISIMNOVer" />
+
+    <TextView
+        android:id="@+id/txtIMEISIMNo"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblIMEISIMNo"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/lblIMEISIMNo"
+        android:text="@string/Pending" />
+
+    <ImageView
+        android:id="@+id/imgIMEISIMNo"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/lblIMEISIMNo"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/lblIMEISIMNo"
+        android:src="@drawable/cross_mark" />
+
+    <TextView
+        android:id="@+id/lblTimeSync"
+        style="@style/SBSmallLabel"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblIMEISIMNo"
+        android:layout_below="@+id/lblIMEISIMNo"
+        android:layout_marginTop="20dp"
+        android:text="@string/TimeSync" />
+
+    <TextView
+        android:id="@+id/txtTimeSync"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblTimeSync"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/lblTimeSync"
+        android:text="@string/Pending" />
+
+    <ImageView
+        android:id="@+id/imgTimeSync"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/lblTimeSync"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/lblTimeSync"
+        android:src="@drawable/cross_mark" />
+
+    <TextView
+        android:id="@+id/lblSessionAlloc"
+        style="@style/SBSmallLabel"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblTimeSync"
+        android:layout_below="@+id/txtTimeSync"
+        android:layout_marginTop="20dp"
+        android:text="@string/MRStatus" />
+
+    <TextView
+        android:id="@+id/txtSessionAlloc"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblSessionAlloc"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/lblSessionAlloc"
+        android:text="@string/Pending" />
+
+    <ImageView
+        android:id="@+id/imgSessionAlloc"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/lblSessionAlloc"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/lblSessionAlloc"
+        android:src="@drawable/cross_mark" />
+
+    <TextView
+        android:id="@+id/lblOTPVer"
+        style="@style/SBSmallLabel"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblSessionAlloc"
+        android:layout_below="@+id/txtSessionAlloc"
+        android:layout_marginTop="20dp"
+        android:text="@string/OTPVer" />
+
+    <TextView
+        android:id="@+id/txtOTPVer"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblOTPVer"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/lblOTPVer"
+        android:text="@string/Pending" />
+
+    <ImageView
+        android:id="@+id/imgOTPVer"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/lblOTPVer"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/lblOTPVer"
+        android:src="@drawable/cross_mark" />
+
+    <TextView
+        android:id="@+id/lblEnterOTP"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblOTPVer"
+        android:layout_below="@+id/txtOTPVer"
+        android:layout_marginTop="20dp"
+        android:text="@string/EnterOTP" />
+
+    <EditText
+        android:id="@+id/txtEnterOTP"
+        style="@style/SBTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblEnterOTP"
+        android:layout_below="@+id/lblEnterOTP"
+        android:ems="8"
+        android:hint="@string/EnterOTP"
+        android:inputType="number"
+        android:maxLength="6" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSendOTP"
+        style="@style/SBButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/txtEnterOTP"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/txtEnterOTP"
+        android:text="@string/SendOTP" />
+
+    <Button
+        android:id="@+id/btnGetBatchNo"
+        style="@style/SBButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblOTPVer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+
+</RelativeLayout>

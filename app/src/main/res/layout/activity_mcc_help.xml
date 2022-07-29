@@ -1,0 +1,69 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="475dp"
+    android:fillViewport="true"
+    android:focusableInTouchMode="true"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblAbout"
+            style="@style/SBLargeLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/MCCHelpDesk" />
+
+        <TextView
+            android:id="@+id/lblComplaintType"
+            style="@style/SBSmallLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/ComplaintType" />
+
+        <Spinner
+            android:id="@+id/ddlComplaintType"
+            style="@style/SBSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/lblRemarks"
+            style="@style/SBSmallLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/Remarks" />
+
+        <EditText
+            android:id="@+id/editRemarks"
+            style="@style/SBTextBox"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:ems="20"
+            android:inputType="text"
+            android:maxLength="100" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnSave"
+                style="@style/SBButton"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="@string/Save" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

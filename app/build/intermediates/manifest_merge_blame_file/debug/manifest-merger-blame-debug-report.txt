@@ -1,0 +1,1038 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="in.nsoft.hescomspotbilling"
+4    android:versionCode="69"
+5    android:versionName="6.90" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:9:5-81
+11-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:9:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:10:5-67
+12-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:10:22-64
+13    <uses-permission android:name="android.permission.BLUETOOTH" />
+13-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:11:5-68
+13-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:11:22-65
+14    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+14-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:12:5-74
+14-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:12:22-71
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:13:5-79
+15-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:13:22-76
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:14:5-81
+16-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:14:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:15:5-80
+17-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:15:22-77
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:16:5-75
+18-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:16:22-72
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:17:5-65
+19-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:17:22-62
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:18:5-79
+20-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:18:22-76
+21    <uses-permission android:name="android.permission.LOCATION_SERVICE" />
+21-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:19:5-75
+21-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:19:22-72
+22
+23    <permission
+23-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:21:5-23:47
+24        android:name="in.nsoft.hescomspotbilling.permission.MAPS_RECEIVE"
+24-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:22:9-74
+25        android:protectionLevel="signature" />
+25-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:23:9-44
+26
+27    <uses-permission android:name="in.nsoft.hescomspotbilling.permission.MAPS_RECEIVE" />
+27-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:25:5-90
+27-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:25:22-87
+28
+29    <uses-feature
+29-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:27:5-29:35
+30        android:name="android.hardware.location.gps"
+30-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:28:9-53
+31        android:required="true" />
+31-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:29:9-32
+32    <uses-feature android:name="android.hardware.camera" />
+32-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:30:5-60
+32-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:30:19-57
+33    <uses-feature
+33-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\14a3e5ffd17a534c668c3599103ac7c2\play-services-maps-12.0.1\AndroidManifest.xml:26:5-28:35
+34        android:glEsVersion="0x00020000"
+34-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\14a3e5ffd17a534c668c3599103ac7c2\play-services-maps-12.0.1\AndroidManifest.xml:27:9-41
+35        android:required="true" /> <!-- Optional permission for Analytics to run. -->
+35-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\14a3e5ffd17a534c668c3599103ac7c2\play-services-maps-12.0.1\AndroidManifest.xml:28:9-32
+36    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+36-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:27:5-68
+36-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:27:22-65
+37    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+37-->[com.google.android.gms:play-services-gcm:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\d9c5de010bf648e1667930f69ad6c54c\play-services-gcm-12.0.1\AndroidManifest.xml:23:5-82
+37-->[com.google.android.gms:play-services-gcm:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\d9c5de010bf648e1667930f69ad6c54c\play-services-gcm-12.0.1\AndroidManifest.xml:23:22-79
+38
+39    <permission
+39-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:28:5-30:47
+40        android:name="in.nsoft.hescomspotbilling.permission.C2D_MESSAGE"
+40-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:29:9-63
+41        android:protectionLevel="signature" />
+41-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:30:9-44
+42
+43    <uses-permission android:name="in.nsoft.hescomspotbilling.permission.C2D_MESSAGE" />
+43-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:32:5-79
+43-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:32:22-76
+44
+45    <application
+45-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:32:5-413:19
+46        android:allowBackup="true"
+46-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:33:9-35
+47        android:debuggable="true"
+48        android:icon="@drawable/ic_launcher"
+48-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:34:9-45
+49        android:testOnly="true"
+50        android:theme="@style/MyTheme" >
+50-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:35:9-39
+51        <activity
+51-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:36:9-52:20
+52            android:name="in.nsoft.hescomspotbilling.LoginActivity"
+52-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:37:13-68
+53            android:configChanges="orientation|keyboardHidden"
+53-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:38:13-63
+54            android:label="@string/app_name"
+54-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:39:13-45
+55            android:screenOrientation="portrait" >
+55-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:40:13-49
+56            <intent-filter>
+56-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:41:13-45:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:42:17-69
+57-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:42:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:44:17-77
+59-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:44:27-74
+60            </intent-filter>
+61
+62            <meta-data
+62-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:48:13-51:25
+63                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+63-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:49:17-82
+64                android:resource="@xml/accessory_filter" >
+64-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:50:17-57
+65            </meta-data>
+66        </activity>
+67
+68        <meta-data
+68-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:48:13-51:25
+69            android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+69-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:49:17-82
+70            android:resource="@xml/accessory_filter" >
+70-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:50:17-57
+71        </meta-data>
+72
+73        <activity
+73-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:61:9-66:20
+74            android:name="in.nsoft.hescomspotbilling.CameraActivity"
+74-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:62:13-69
+75            android:configChanges="orientation|screenSize"
+75-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:63:13-59
+76            android:label="@string/app_name"
+76-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:64:13-45
+77            android:screenOrientation="landscape" >
+77-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:65:13-50
+78        </activity>
+79        <activity
+79-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:67:9-72:20
+80            android:name="in.nsoft.hescomspotbilling.CameraChequeActivity"
+80-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:68:13-75
+81            android:configChanges="orientation|screenSize"
+81-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:69:13-59
+82            android:label="@string/app_name"
+82-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:70:13-45
+83            android:screenOrientation="landscape" >
+83-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:71:13-50
+84        </activity>
+85        <activity
+85-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:73:9-78:20
+86            android:name="in.nsoft.hescomspotbilling.Billing"
+86-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:74:13-62
+87            android:configChanges="orientation|keyboardHidden"
+87-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:75:13-63
+88            android:label="@string/app_name"
+88-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:76:13-45
+89            android:screenOrientation="portrait" >
+89-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:77:13-49
+90        </activity>
+91        <activity
+91-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:79:9-84:20
+92            android:name="in.nsoft.hescomspotbilling.HomePage"
+92-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:80:13-63
+93            android:configChanges="orientation|keyboardHidden"
+93-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:81:13-63
+94            android:label="@string/app_name"
+94-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:82:13-45
+95            android:screenOrientation="portrait" >
+95-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:83:13-49
+96        </activity>
+97        <activity
+97-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:85:9-90:20
+98            android:name="in.nsoft.hescomspotbilling.BillingConsumption"
+98-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:86:13-73
+99            android:configChanges="orientation|keyboardHidden"
+99-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:87:13-63
+100            android:label="@string/app_name"
+100-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:88:13-45
+101            android:screenOrientation="portrait" >
+101-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:89:13-49
+102        </activity>
+103        <activity
+103-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:92:9-97:20
+104            android:name="in.nsoft.hescomspotbilling.OtherBrowseActivity"
+104-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:93:13-74
+105            android:configChanges="orientation|keyboardHidden"
+105-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:94:13-63
+106            android:label="@string/app_name"
+106-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:95:13-45
+107            android:screenOrientation="portrait" >
+107-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:96:13-49
+108        </activity>
+109        <activity
+109-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:98:9-103:20
+110            android:name="in.nsoft.hescomspotbilling.OtherListActivity"
+110-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:99:13-72
+111            android:configChanges="orientation|keyboardHidden"
+111-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:100:13-63
+112            android:label="@string/app_name"
+112-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:101:13-45
+113            android:screenOrientation="portrait" >
+113-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:102:13-49
+114        </activity>
+115        <activity
+115-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:104:9-109:20
+116            android:name="in.nsoft.hescomspotbilling.OtherBrowseListActivity"
+116-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:105:13-78
+117            android:configChanges="orientation|keyboardHidden"
+117-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:106:13-63
+118            android:label="@string/app_name"
+118-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:107:13-45
+119            android:screenOrientation="portrait" >
+119-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:108:13-49
+120        </activity>
+121        <activity
+121-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:110:9-115:20
+122            android:name="in.nsoft.hescomspotbilling.ReportListActivity"
+122-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:111:13-73
+123            android:configChanges="orientation|keyboardHidden"
+123-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:112:13-63
+124            android:label="@string/app_name"
+124-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:113:13-45
+125            android:screenOrientation="portrait" >
+125-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:114:13-49
+126        </activity>
+127        <activity
+127-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:116:9-121:20
+128            android:name="in.nsoft.hescomspotbilling.ReportBillingActivity"
+128-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:117:13-76
+129            android:configChanges="orientation|keyboardHidden"
+129-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:118:13-63
+130            android:label="@string/app_name"
+130-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:119:13-45
+131            android:screenOrientation="portrait" >
+131-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:120:13-49
+132        </activity>
+133        <activity
+133-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:122:9-127:20
+134            android:name="in.nsoft.hescomspotbilling.ReportNotBilledActivity"
+134-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:123:13-78
+135            android:configChanges="orientation|keyboardHidden"
+135-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:124:13-63
+136            android:label="@string/app_name"
+136-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:125:13-45
+137            android:screenOrientation="portrait" >
+137-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:126:13-49
+138        </activity>
+139        <activity
+139-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:128:9-133:20
+140            android:name="in.nsoft.hescomspotbilling.ReportStatusActivity"
+140-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:129:13-75
+141            android:configChanges="orientation|keyboardHidden"
+141-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:130:13-63
+142            android:label="@string/app_name"
+142-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:131:13-45
+143            android:screenOrientation="portrait" >
+143-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:132:13-49
+144        </activity>
+145        <activity
+145-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:134:9-139:20
+146            android:name="in.nsoft.hescomspotbilling.ReportStatusListActivity"
+146-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:135:13-79
+147            android:configChanges="orientation|keyboardHidden"
+147-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:136:13-63
+148            android:label="@string/app_name"
+148-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:137:13-45
+149            android:screenOrientation="portrait" >
+149-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:138:13-49
+150        </activity>
+151        <activity
+151-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:140:9-145:20
+152            android:name="in.nsoft.hescomspotbilling.WriteFileToSDCardActivity"
+152-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:141:13-80
+153            android:configChanges="orientation|keyboardHidden"
+153-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:142:13-63
+154            android:label="@string/app_name"
+154-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:143:13-45
+155            android:screenOrientation="portrait" >
+155-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:144:13-49
+156        </activity>
+157        <activity
+157-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:146:9-151:20
+158            android:name="in.nsoft.hescomspotbilling.DownloadDBToSDCardActivity"
+158-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:147:13-81
+159            android:configChanges="orientation|keyboardHidden"
+159-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:148:13-63
+160            android:label="@string/app_name"
+160-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:149:13-45
+161            android:screenOrientation="portrait" >
+161-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:150:13-49
+162        </activity>
+163        <activity
+163-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:152:9-157:20
+164            android:name="in.nsoft.hescomspotbilling.ReportGPRSActivity"
+164-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:153:13-73
+165            android:configChanges="orientation|keyboardHidden"
+165-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:154:13-63
+166            android:label="@string/app_name"
+166-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:155:13-45
+167            android:screenOrientation="portrait" >
+167-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:156:13-49
+168        </activity>
+169
+170        <receiver android:name="in.nsoft.hescomspotbilling.InternetStartUpReceiver" >
+170-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:159:9-163:20
+170-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:159:19-84
+171            <intent-filter>
+171-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:160:13-162:29
+172                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+172-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:161:17-79
+172-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:161:25-76
+173            </intent-filter>
+174        </receiver>
+175
+176        <activity
+176-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:165:9-170:20
+177            android:name="in.nsoft.hescomspotbilling.AboutAppActivity"
+177-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:166:13-71
+178            android:configChanges="orientation|keyboardHidden"
+178-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:167:13-63
+179            android:label="@string/app_name"
+179-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:168:13-45
+180            android:screenOrientation="portrait" >
+180-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:169:13-49
+181        </activity>
+182        <activity
+182-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:171:9-176:20
+183            android:name="in.nsoft.hescomspotbilling.CollectionActivity"
+183-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:172:13-73
+184            android:configChanges="orientation|keyboardHidden"
+184-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:173:13-63
+185            android:label="@string/app_name"
+185-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:174:13-45
+186            android:screenOrientation="portrait" >
+186-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:175:13-49
+187        </activity>
+188        <activity
+188-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:177:9-182:20
+189            android:name="in.nsoft.hescomspotbilling.CollectionCashActivity"
+189-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:178:13-77
+190            android:configChanges="orientation|keyboardHidden"
+190-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:179:13-63
+191            android:label="@string/app_name"
+191-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:180:13-45
+192            android:screenOrientation="portrait" >
+192-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:181:13-49
+193        </activity>
+194        <activity
+194-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:183:9-188:20
+195            android:name="in.nsoft.hescomspotbilling.CollectionChequeActivity"
+195-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:184:13-79
+196            android:configChanges="orientation|keyboardHidden"
+196-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:185:13-63
+197            android:label="@string/app_name"
+197-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:186:13-45
+198            android:screenOrientation="portrait" >
+198-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:187:13-49
+199        </activity>
+200        <activity
+200-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:189:9-194:20
+201            android:name="in.nsoft.hescomspotbilling.CashCounterSyncActivity"
+201-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:190:13-78
+202            android:configChanges="orientation|keyboardHidden"
+202-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:191:13-63
+203            android:label="@string/app_name"
+203-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:192:13-45
+204            android:screenOrientation="portrait" >
+204-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:193:13-49
+205        </activity>
+206        <activity
+206-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:195:9-200:20
+207            android:name="in.nsoft.hescomspotbilling.CollectionStartActivity"
+207-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:196:13-78
+208            android:configChanges="orientation|keyboardHidden"
+208-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:197:13-63
+209            android:label="@string/app_name"
+209-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:198:13-45
+210            android:screenOrientation="portrait" >
+210-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:199:13-49
+211        </activity>
+212        <activity
+212-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:201:9-206:20
+213            android:name="in.nsoft.hescomspotbilling.ReportCashCounterDetailsActivity"
+213-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:202:13-87
+214            android:configChanges="orientation|keyboardHidden"
+214-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:203:13-63
+215            android:label="@string/app_name"
+215-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:204:13-45
+216            android:screenOrientation="portrait" >
+216-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:205:13-49
+217        </activity>
+218        <activity
+218-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:207:9-212:20
+219            android:name="in.nsoft.hescomspotbilling.ReportBescomCopyPrintActivity"
+219-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:208:13-84
+220            android:configChanges="orientation|keyboardHidden"
+220-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:209:13-63
+221            android:label="@string/app_name"
+221-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:210:13-45
+222            android:screenOrientation="portrait" >
+222-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:211:13-49
+223        </activity>
+224        <activity
+224-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:213:9-218:20
+225            android:name="in.nsoft.hescomspotbilling.ReportRRNoWiseCollectionActivity"
+225-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:214:13-87
+226            android:configChanges="orientation|keyboardHidden"
+226-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:215:13-63
+227            android:label="@string/app_name"
+227-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:216:13-45
+228            android:screenOrientation="portrait" >
+228-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:217:13-49
+229        </activity>
+230        <activity
+230-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:219:9-224:20
+231            android:name="in.nsoft.hescomspotbilling.ReportCollectionDetailsActivity"
+231-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:220:13-86
+232            android:configChanges="orientation|keyboardHidden"
+232-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:221:13-63
+233            android:label="@string/app_name"
+233-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:222:13-45
+234            android:screenOrientation="portrait" >
+234-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:223:13-49
+235        </activity>
+236        <activity
+236-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:225:9-230:20
+237            android:name="in.nsoft.hescomspotbilling.ReportDayWiseCollectionActivity"
+237-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:226:13-86
+238            android:configChanges="orientation|keyboardHidden"
+238-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:227:13-63
+239            android:label="@string/app_name"
+239-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:228:13-45
+240            android:screenOrientation="portrait" >
+240-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:229:13-49
+241        </activity>
+242        <activity
+242-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:231:9-236:20
+243            android:name="in.nsoft.hescomspotbilling.BluethoothDiscoveryActivity"
+243-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:232:13-82
+244            android:configChanges="orientation|keyboardHidden"
+244-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:233:13-63
+245            android:label="@string/app_name"
+245-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:234:13-45
+246            android:screenOrientation="portrait" >
+246-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:235:13-49
+247        </activity>
+248
+249        <!--
+250        <receiver android:name="in.nsoft.hescomspotbilling.TimeChangedReceiver" >
+251            <intent-filter>
+252                <action android:name="android.intent.action.DATE_CHANGED" />    
+253                <action android:name="android.intent.action.TIME_SET" />              
+254            </intent-filter>
+255        </receiver>
+256        -->
+257        <receiver android:name="in.nsoft.hescomspotbilling.DynamicBluetooth" >
+257-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:252:9-256:20
+257-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:252:19-77
+258            <intent-filter>
+258-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:253:13-255:29
+259                <action android:name="android.bluetooth.device.action.FOUND" />
+259-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:254:17-80
+259-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:254:25-77
+260            </intent-filter>
+261        </receiver>
+262
+263        <activity
+263-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:258:9-263:20
+264            android:name="in.nsoft.hescomspotbilling.ReportGPRSNotSentList"
+264-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:259:13-76
+265            android:configChanges="orientation|keyboardHidden"
+265-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:260:13-63
+266            android:label="@string/app_name"
+266-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:261:13-45
+267            android:screenOrientation="portrait" >
+267-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:262:13-49
+268        </activity>
+269        <activity
+269-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:264:9-269:20
+270            android:name="in.nsoft.hescomspotbilling.ReportDayWiseCollectionListActivity"
+270-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:265:13-90
+271            android:configChanges="orientation|keyboardHidden"
+271-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:266:13-63
+272            android:label="@string/app_name"
+272-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:267:13-45
+273            android:screenOrientation="portrait" >
+273-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:268:13-49
+274        </activity>
+275        <activity
+275-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:270:9-275:20
+276            android:name="in.nsoft.hescomspotbilling.DownloadFileFromServerActivity"
+276-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:271:13-85
+277            android:configChanges="orientation|keyboardHidden"
+277-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:272:13-63
+278            android:label="@string/app_name"
+278-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:273:13-45
+279            android:screenOrientation="portrait" >
+279-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:274:13-49
+280        </activity>
+281        <activity
+281-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:276:9-281:20
+282            android:name="in.nsoft.hescomspotbilling.ReportTPFeederActivity"
+282-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:277:13-77
+283            android:configChanges="orientation|keyboardHidden"
+283-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:278:13-63
+284            android:label="@string/app_name"
+284-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:279:13-45
+285            android:screenOrientation="portrait" >
+285-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:280:13-49
+286        </activity>
+287        <activity
+287-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:282:9-287:20
+288            android:name="in.nsoft.hescomspotbilling.MobileStatusActivity"
+288-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:283:13-75
+289            android:configChanges="orientation|keyboardHidden"
+289-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:284:13-63
+290            android:label="@string/app_name"
+290-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:285:13-45
+291            android:screenOrientation="portrait" >
+291-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:286:13-49
+292        </activity>
+293        <activity
+293-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:289:9-294:20
+294            android:name="in.nsoft.hescomspotbilling.CameraActivityFacialMaster"
+294-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:290:13-81
+295            android:configChanges="orientation|screenSize"
+295-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:291:13-59
+296            android:label="@string/app_name"
+296-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:292:13-45
+297            android:screenOrientation="portrait" >
+297-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:293:13-49
+298        </activity>
+299        <activity
+299-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:295:9-301:20
+300            android:name="in.nsoft.hescomspotbilling.BillingMeterDetailsCaptureActivity"
+300-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:296:13-89
+301            android:configChanges="orientation|keyboardHidden"
+301-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:297:13-63
+302            android:label="@string/app_name"
+302-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:298:13-45
+303            android:screenOrientation="portrait"
+303-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:299:13-49
+304            android:windowSoftInputMode="adjustPan" >
+304-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:300:13-52
+305        </activity>
+306        <activity
+306-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:302:9-307:20
+307            android:name="in.nsoft.hescomspotbilling.Collection_LatePaymentActivity"
+307-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:303:13-85
+308            android:configChanges="orientation|screenSize"
+308-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:304:13-59
+309            android:label="@string/app_name"
+309-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:305:13-45
+310            android:screenOrientation="portrait" >
+310-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:306:13-49
+311        </activity>
+312        <activity
+312-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:308:9-313:20
+313            android:name="in.nsoft.hescomspotbilling.BillingConsumerDetailsActivity"
+313-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:309:13-85
+314            android:configChanges="orientation|screenSize"
+314-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:310:13-59
+315            android:label="@string/app_name"
+315-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:311:13-45
+316            android:screenOrientation="portrait" >
+316-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:312:13-49
+317        </activity>
+318        <activity
+318-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:314:9-319:20
+319            android:name="in.nsoft.hescomspotbilling.BillingStartActivity"
+319-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:315:13-75
+320            android:configChanges="orientation|screenSize"
+320-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:316:13-59
+321            android:label="@string/app_name"
+321-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:317:13-45
+322            android:screenOrientation="portrait" >
+322-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:318:13-49
+323        </activity>
+324        <activity
+324-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:320:9-325:20
+325            android:name="in.nsoft.hescomspotbilling.ReportTariffwiseActivity"
+325-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:321:13-79
+326            android:configChanges="orientation|screenSize"
+326-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:322:13-59
+327            android:label="@string/app_name"
+327-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:323:13-45
+328            android:screenOrientation="portrait" >
+328-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:324:13-49
+329        </activity>
+330        <activity
+330-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:326:9-331:20
+331            android:name="in.nsoft.hescomspotbilling.DownloadAPKActivity"
+331-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:327:13-74
+332            android:configChanges="orientation|screenSize"
+332-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:328:13-59
+333            android:label="@string/app_name"
+333-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:329:13-45
+334            android:screenOrientation="portrait" >
+334-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:330:13-49
+335        </activity>
+336        <activity
+336-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:332:9-337:20
+337            android:name="in.nsoft.hescomspotbilling.AboutMCCActivity"
+337-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:333:13-71
+338            android:configChanges="orientation|screenSize"
+338-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:334:13-59
+339            android:label="@string/app_name"
+339-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:335:13-45
+340            android:screenOrientation="portrait" >
+340-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:336:13-49
+341        </activity>
+342        <activity
+342-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:338:9-343:20
+343            android:name="in.nsoft.hescomspotbilling.MCCHelpActivity"
+343-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:339:13-70
+344            android:configChanges="orientation|screenSize"
+344-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:340:13-59
+345            android:label="@string/app_name"
+345-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:341:13-45
+346            android:screenOrientation="portrait" >
+346-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:342:13-49
+347        </activity>
+348        <activity
+348-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:344:9-349:20
+349            android:name="in.nsoft.hescomspotbilling.UARTLoopbackActivity"
+349-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:345:13-49
+350            android:configChanges="orientation|keyboardHidden"
+350-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:346:13-63
+351            android:label="@string/app_name"
+351-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:347:13-45
+352            android:screenOrientation="landscape" >
+352-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:348:13-50
+353        </activity>
+354        <activity
+354-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:351:9-356:20
+355            android:name="in.nsoft.hescomspotbilling.ExitUSBActivity"
+355-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:352:13-44
+356            android:configChanges="orientation|keyboardHidden"
+356-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:353:13-63
+357            android:label="@string/app_name"
+357-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:354:13-45
+358            android:screenOrientation="portrait" >
+358-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:355:13-49
+359        </activity>
+360        <activity
+360-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:357:9-362:20
+361            android:name="in.nsoft.hescomspotbilling.Billing_LandT"
+361-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:358:13-42
+362            android:configChanges="orientation|keyboardHidden"
+362-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:359:13-63
+363            android:label="@string/app_name"
+363-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:360:13-45
+364            android:screenOrientation="portrait" >
+364-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:361:13-49
+365        </activity>
+366        <activity
+366-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:363:9-368:20
+367            android:name="in.nsoft.hescomspotbilling.BillingConsumption_LandT"
+367-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:364:13-53
+368            android:configChanges="orientation|keyboardHidden"
+368-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:365:13-63
+369            android:label="@string/app_name"
+369-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:366:13-45
+370            android:screenOrientation="portrait" >
+370-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:367:13-49
+371        </activity>
+372        <activity
+372-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:369:9-375:20
+373            android:name="in.nsoft.hescomspotbilling.USBSerial_MainActivity"
+373-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:370:13-51
+374            android:configChanges="orientation|keyboardHidden"
+374-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:371:13-63
+375            android:label="@string/app_name"
+375-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:372:13-45
+376            android:launchMode="singleTask"
+376-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:374:13-44
+377            android:screenOrientation="portrait" >
+377-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:373:13-49
+378        </activity>
+379        <activity
+379-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:376:9-381:20
+380            android:name="in.nsoft.hescomspotbilling.DisconnectionActivity"
+380-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:377:13-50
+381            android:configChanges="orientation|keyboardHidden"
+381-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:378:13-63
+382            android:label="@string/app_name"
+382-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:379:13-45
+383            android:screenOrientation="portrait" >
+383-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:380:13-49
+384        </activity>
+385        <activity
+385-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:382:9-387:20
+386            android:name="in.nsoft.hescomspotbilling.CameraDisconnectionActivity"
+386-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:383:13-56
+387            android:configChanges="orientation|screenSize"
+387-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:384:13-59
+388            android:label="@string/app_name"
+388-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:385:13-45
+389            android:screenOrientation="landscape" >
+389-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:386:13-50
+390        </activity>
+391        <activity
+391-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:388:9-391:20
+392            android:name="in.nsoft.hescomspotbilling.MapActivity"
+392-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:389:13-40
+393            android:label="@string/app_name" >
+393-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:390:13-45
+394        </activity>
+395
+396        <meta-data
+396-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:393:9-395:71
+397            android:name="com.google.android.maps.v2.API_KEY"
+397-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:394:13-62
+398            android:value="AIzaSyCOwoj2uKwG2OdMehGZRGokNe9BchhOY9I" />
+398-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:395:13-68
+399        <meta-data
+399-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:396:9-398:69
+400            android:name="com.google.android.gms.version"
+400-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:397:13-58
+401            android:value="@integer/google_play_services_version" />
+401-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:398:13-66
+402
+403        <service
+403-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:400:9-402:38
+404            android:name="in.nsoft.hescomspotbilling.USBSerial_UsbService"
+404-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:401:13-49
+405            android:enabled="true" />
+405-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:402:13-35
+406
+407        <provider
+407-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:404:9-412:20
+408            android:name="android.support.v4.content.FileProvider"
+408-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:405:13-67
+409            android:authorities="in.nsoft.hescomspotbilling.fileProvider"
+409-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:406:13-74
+410            android:exported="false"
+410-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:407:13-37
+411            android:grantUriPermissions="true" >
+411-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:408:13-47
+412            <meta-data
+412-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:409:13-411:53
+413                android:name="android.support.FILE_PROVIDER_PATHS"
+413-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:410:17-67
+414                android:resource="@xml/filepaths" />
+414-->D:\WorkSpaceStudio\HESCOMSpotbilling\app\src\main\AndroidManifest.xml:411:17-50
+415        </provider>
+416        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+417        <activity
+417-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\61de0f6692d4fcb317ddd3f5fe858c4a\play-services-ads-lite-12.0.1\AndroidManifest.xml:29:9-33:64
+418            android:name="com.google.android.gms.ads.AdActivity"
+418-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\61de0f6692d4fcb317ddd3f5fe858c4a\play-services-ads-lite-12.0.1\AndroidManifest.xml:30:13-65
+419            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+419-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\61de0f6692d4fcb317ddd3f5fe858c4a\play-services-ads-lite-12.0.1\AndroidManifest.xml:31:13-122
+420            android:exported="false"
+420-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\61de0f6692d4fcb317ddd3f5fe858c4a\play-services-ads-lite-12.0.1\AndroidManifest.xml:32:13-37
+421            android:theme="@android:style/Theme.Translucent" />
+421-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\61de0f6692d4fcb317ddd3f5fe858c4a\play-services-ads-lite-12.0.1\AndroidManifest.xml:33:13-61
+422
+423        <receiver
+423-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:30:9-34:20
+424            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+424-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:31:13-78
+425            android:enabled="true"
+425-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:32:13-35
+426            android:exported="false" >
+426-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:33:13-37
+427        </receiver>
+428
+429        <service
+429-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:36:9-39:40
+430            android:name="com.google.android.gms.analytics.AnalyticsService"
+430-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:37:13-77
+431            android:enabled="true"
+431-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:38:13-35
+432            android:exported="false" />
+432-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:39:13-37
+433        <service
+433-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:40:9-44:72
+434            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+434-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:41:13-80
+435            android:enabled="true"
+435-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:42:13-35
+436            android:exported="false"
+436-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:43:13-37
+437            android:permission="android.permission.BIND_JOB_SERVICE" />
+437-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\b26a98c97cbf35d16bb314d0694eb7e7\play-services-analytics-12.0.1\AndroidManifest.xml:44:13-69
+438
+439        <activity
+439-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:25:9-34:20
+440            android:name="com.google.android.gms.appinvite.PreviewActivity"
+440-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:26:13-76
+441            android:exported="true"
+441-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:27:13-36
+442            android:theme="@style/Theme.AppInvite.Preview" >
+442-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:28:13-59
+443            <intent-filter>
+443-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:29:13-33:29
+444                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+444-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:30:17-90
+444-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:30:25-87
+445
+446                <category android:name="android.intent.category.DEFAULT" />
+446-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+446-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+447            </intent-filter>
+448        </activity>
+449        <activity
+449-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:23:9-27:75
+450            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+450-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:24:13-93
+451            android:excludeFromRecents="true"
+451-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:25:13-46
+452            android:exported="false"
+452-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:26:13-37
+453            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+453-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:27:13-72
+454        <!--
+455            Service handling Google Sign-In user revocation. For apps that do not integrate with
+456            Google Sign-In, this service will never be started.
+457        -->
+458        <service
+458-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:33:9-36:110
+459            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+459-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:34:13-89
+460            android:exported="true"
+460-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:35:13-36
+461            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+461-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\1aaf74a2b3c7f7c67e0e2ea8962b67dc\play-services-auth-12.0.1\AndroidManifest.xml:36:13-107
+462
+463        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+463-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\59d290c0ce4f4f0fbc0c2707e00ce24d\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:9-100
+463-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\59d290c0ce4f4f0fbc0c2707e00ce24d\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:19-97
+464
+465        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+465-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\59d290c0ce4f4f0fbc0c2707e00ce24d\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:9-104
+465-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\59d290c0ce4f4f0fbc0c2707e00ce24d\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:18-101
+466        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+466-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\59d290c0ce4f4f0fbc0c2707e00ce24d\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:9-93
+466-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\59d290c0ce4f4f0fbc0c2707e00ce24d\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:18-90
+467
+468        <activity
+468-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\5e67c4810931a475601e08a537500aaa\firebase-auth-12.0.1\AndroidManifest.xml:23:9-29:75
+469            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+469-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\5e67c4810931a475601e08a537500aaa\firebase-auth-12.0.1\AndroidManifest.xml:24:13-85
+470            android:excludeFromRecents="true"
+470-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\5e67c4810931a475601e08a537500aaa\firebase-auth-12.0.1\AndroidManifest.xml:25:13-46
+471            android:exported="true"
+471-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\5e67c4810931a475601e08a537500aaa\firebase-auth-12.0.1\AndroidManifest.xml:26:13-36
+472            android:launchMode="singleInstance"
+472-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\5e67c4810931a475601e08a537500aaa\firebase-auth-12.0.1\AndroidManifest.xml:27:13-48
+473            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+473-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\5e67c4810931a475601e08a537500aaa\firebase-auth-12.0.1\AndroidManifest.xml:28:13-102
+474            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+474-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\5e67c4810931a475601e08a537500aaa\firebase-auth-12.0.1\AndroidManifest.xml:29:13-72
+475        <activity
+475-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\d5b7feb415b67396eeb16dfa4b720b8a\play-services-base-12.0.1\AndroidManifest.xml:23:9-26:75
+476            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+476-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\d5b7feb415b67396eeb16dfa4b720b8a\play-services-base-12.0.1\AndroidManifest.xml:24:13-79
+477            android:exported="false"
+477-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\d5b7feb415b67396eeb16dfa4b720b8a\play-services-base-12.0.1\AndroidManifest.xml:25:13-37
+478            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+478-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\d5b7feb415b67396eeb16dfa4b720b8a\play-services-base-12.0.1\AndroidManifest.xml:26:13-72
+479        <!--
+480             FirebaseMessagingService performs security checks at runtime,
+481             no need for explicit permissions despite exported="true"
+482        -->
+483        <service
+483-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\99d7e5faef6b34e1a73bef87333783a0\firebase-messaging-12.0.1\AndroidManifest.xml:28:9-34:19
+484            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+484-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\99d7e5faef6b34e1a73bef87333783a0\firebase-messaging-12.0.1\AndroidManifest.xml:29:13-82
+485            android:exported="true" >
+485-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\99d7e5faef6b34e1a73bef87333783a0\firebase-messaging-12.0.1\AndroidManifest.xml:30:13-36
+486            <intent-filter android:priority="-500" >
+486-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\99d7e5faef6b34e1a73bef87333783a0\firebase-messaging-12.0.1\AndroidManifest.xml:31:13-33:29
+486-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\99d7e5faef6b34e1a73bef87333783a0\firebase-messaging-12.0.1\AndroidManifest.xml:31:28-51
+487                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+487-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\99d7e5faef6b34e1a73bef87333783a0\firebase-messaging-12.0.1\AndroidManifest.xml:32:17-78
+487-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\99d7e5faef6b34e1a73bef87333783a0\firebase-messaging-12.0.1\AndroidManifest.xml:32:25-75
+488            </intent-filter>
+489        </service>
+490        <service
+490-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:27:9-30:40
+491            android:name="com.google.android.gms.tagmanager.TagManagerService"
+491-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:28:13-79
+492            android:enabled="true"
+492-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:29:13-35
+493            android:exported="false" />
+493-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:30:13-37
+494
+495        <activity
+495-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:32:9-44:20
+496            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+496-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:33:13-87
+497            android:exported="true"
+497-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:34:13-36
+498            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+498-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:35:13-37
+499            <intent-filter>
+499-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:36:13-43:29
+500                <data android:scheme="tagmanager.c.in.nsoft.hescomspotbilling" />
+500-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:17-72
+500-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:23-69
+501
+502                <action android:name="android.intent.action.VIEW" />
+502-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:17-69
+502-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:25-66
+503
+504                <category android:name="android.intent.category.DEFAULT" />
+504-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+504-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\a59bcbe8b6bc07776eaa4bd1e1ecc84d\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+505                <category android:name="android.intent.category.BROWSABLE" />
+505-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:17-78
+505-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\27e0b3b9f9228ee0139e0b846daf9310\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:27-75
+506            </intent-filter>
+507        </activity>
+508
+509        <receiver
+509-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:28:9-32:20
+510            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+510-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:29:13-85
+511            android:enabled="true"
+511-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:30:13-35
+512            android:exported="false" >
+512-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:31:13-37
+513        </receiver>
+514        <receiver
+514-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:33:9-41:20
+515            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+515-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:34:13-100
+516            android:enabled="true"
+516-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:35:13-35
+517            android:exported="true"
+517-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:36:13-36
+518            android:permission="android.permission.INSTALL_PACKAGES" >
+518-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:37:13-69
+519            <intent-filter>
+519-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:38:13-40:29
+520                <action android:name="com.android.vending.INSTALL_REFERRER" />
+520-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:39:17-79
+520-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:39:25-76
+521            </intent-filter>
+522        </receiver>
+523
+524        <service
+524-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:43:9-46:40
+525            android:name="com.google.android.gms.measurement.AppMeasurementService"
+525-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:44:13-84
+526            android:enabled="true"
+526-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:45:13-35
+527            android:exported="false" />
+527-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:46:13-37
+528        <service
+528-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:47:9-51:72
+529            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+529-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:48:13-87
+530            android:enabled="true"
+530-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:49:13-35
+531            android:exported="false"
+531-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:50:13-37
+532            android:permission="android.permission.BIND_JOB_SERVICE" />
+532-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\53df0fafb919b031667a3f398bfbceae\firebase-analytics-12.0.1\AndroidManifest.xml:51:13-69
+533
+534        <receiver
+534-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:35:9-44:20
+535            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+535-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:36:13-78
+536            android:exported="true"
+536-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:37:13-36
+537            android:permission="com.google.android.c2dm.permission.SEND" >
+537-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:38:13-73
+538            <intent-filter>
+538-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:39:13-43:29
+539                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+539-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:40:17-81
+539-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:40:25-78
+540
+541                <category android:name="in.nsoft.hescomspotbilling" />
+541-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:42:17-61
+541-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:42:27-58
+542            </intent-filter>
+543        </receiver>
+544        <!--
+545             FirebaseInstanceIdService performs security checks at runtime,
+546             no need for explicit permissions despite exported="true"
+547        -->
+548        <service
+548-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:50:9-56:19
+549            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+549-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:51:13-77
+550            android:exported="true" >
+550-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:52:13-36
+551            <intent-filter android:priority="-500" >
+551-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:53:13-55:29
+551-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:53:28-51
+552                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+552-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:54:17-80
+552-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\c6a227dd4db3570ac9d82ac89e4fdcf5\firebase-iid-12.0.1\AndroidManifest.xml:54:25-77
+553            </intent-filter>
+554        </service>
+555
+556        <provider
+556-->[com.google.firebase:firebase-common:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\4e9d19ce96c28d4c63f02bc299849551\firebase-common-12.0.1\AndroidManifest.xml:8:9-12:39
+557            android:name="com.google.firebase.provider.FirebaseInitProvider"
+557-->[com.google.firebase:firebase-common:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\4e9d19ce96c28d4c63f02bc299849551\firebase-common-12.0.1\AndroidManifest.xml:9:13-77
+558            android:authorities="in.nsoft.hescomspotbilling.firebaseinitprovider"
+558-->[com.google.firebase:firebase-common:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\4e9d19ce96c28d4c63f02bc299849551\firebase-common-12.0.1\AndroidManifest.xml:10:13-72
+559            android:exported="false"
+559-->[com.google.firebase:firebase-common:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\4e9d19ce96c28d4c63f02bc299849551\firebase-common-12.0.1\AndroidManifest.xml:11:13-37
+560            android:initOrder="100" />
+560-->[com.google.firebase:firebase-common:12.0.1] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\4e9d19ce96c28d4c63f02bc299849551\firebase-common-12.0.1\AndroidManifest.xml:12:13-36
+561
+562        <meta-data
+562-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\038251c00a07d66870c2fd9beab2bd9f\mediarouter-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+563            android:name="android.support.VERSION"
+563-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\038251c00a07d66870c2fd9beab2bd9f\mediarouter-v7-26.1.0\AndroidManifest.xml:24:13-51
+564            android:value="26.1.0" />
+564-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\038251c00a07d66870c2fd9beab2bd9f\mediarouter-v7-26.1.0\AndroidManifest.xml:25:13-35
+565        <meta-data
+565-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\2866a802edd10d0352ff68229e14ce56\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+566            android:name="android.arch.lifecycle.VERSION"
+566-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\2866a802edd10d0352ff68229e14ce56\runtime-1.0.0\AndroidManifest.xml:26:13-58
+567            android:value="27.0.0-SNAPSHOT" />
+567-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\supriya.mirasdar\.gradle\caches\transforms-2\files-2.1\2866a802edd10d0352ff68229e14ce56\runtime-1.0.0\AndroidManifest.xml:27:13-44
+568    </application>
+569
+570</manifest>

@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SBBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >  
+    
+    <TextView
+        android:id="@+id/lblRevenueMisc"
+        style="@style/SBRedLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblConId"
+            style="@style/SBSmallLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ConID" />
+
+        <TextView
+            android:id="@+id/lblRRNo"
+            style="@style/SBSmallLabel"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/RRno" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtConId"
+            style="@style/SBLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ConID" />
+
+        <TextView
+            android:id="@+id/txtRRNo"
+            style="@style/SBLabel"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/RRno" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblRemarks"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/Remarks" />
+
+    <Spinner
+        android:id="@+id/ddlRemarks"
+        style="@style/SBSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    
+    <TextView
+        android:id="@+id/lblScheduledDate"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Expected Payment Date" />
+    
+      <EditText
+        android:id="@+id/txtScheduledDate"
+        style="@style/SBTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+        android:ems="20"
+        android:hint="@string/ddmmyyyy" >
+        </EditText>
+
+    <Button
+        android:id="@+id/btnConfirm"
+        style="@style/SBButton"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/Confirm" />
+
+</LinearLayout>

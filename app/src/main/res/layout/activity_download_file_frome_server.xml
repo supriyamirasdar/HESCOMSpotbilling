@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--
+    <TextView
+        android:id="@+id/textuniqueid"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editTextuniqueid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="2" />
+
+        <Button
+            android:id="@+id/buttonsenduniqueid"
+            style="@style/SBButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Send" />
+    </LinearLayout>
+    -->
+
+    <TextView
+        android:id="@+id/textverificationcode"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:text="Enter Reading Day" />
+
+    <EditText
+        android:id="@+id/editTextverificationcode"
+        style="@style/SBTextBox"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5sp"
+        android:inputType="number" 
+        android:maxLength="2"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonsendverificationcode"
+            style="@style/SBButton"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:text="@string/Send" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvListViewCaption"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp" 
+        android:text="@string/DownloadCaption"/>
+
+    <ListView
+        android:id="@+id/LVSubdivList"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_margin="5sp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/textViewprogressbar"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_margin="5sp"
+        android:progressDrawable="@drawable/custom_progressbar" />
+
+</LinearLayout>

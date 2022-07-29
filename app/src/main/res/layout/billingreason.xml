@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created Tamilselvan on 27-02-2014  -->
+<DropDownList>	
+	<ddlItem>
+		<id>1</id>
+		<value>DL  : Door Lock</value>
+	</ddlItem>
+	<ddlItem>
+		<id>2</id>
+		<value>MNR : Meter Not Running</value>
+	</ddlItem>	
+	<ddlItem>
+		<id>3</id>
+		<value>DO  : Dial Over</value>
+	</ddlItem>
+	<ddlItem>
+		<id>4</id>
+		<value>MCH : Meter Change</value>
+	</ddlItem>
+	<ddlItem>
+		<id>5</id>
+		<value>RNF : Reading Not Furnished</value>
+	</ddlItem>
+	<ddlItem>
+		<id>6</id>
+		<value>VA  : Vacant</value>
+	</ddlItem>
+	
+	<ddlItem>
+		<id>8</id>
+		<value>DIS : Disconnection</value>
+	</ddlItem>
+	<ddlItem>
+		<id>9</id>
+		<value>MS  : Meter Stopped</value>
+	</ddlItem> 
+	<ddlItem>
+		<id>10</id>
+		<value>DIR : Direct Connection</value>
+	</ddlItem>
+	<ddlItem>
+		<id>14</id>
+		<value>MB  : Meter Burnt </value>
+	</ddlItem>
+	<ddlItem>
+		<id>15</id>
+		<value>NT  : Not Traced</value>
+	</ddlItem>	
+</DropDownList>

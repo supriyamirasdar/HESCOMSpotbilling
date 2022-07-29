@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/SBBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <TextView
+        android:id="@+id/txtRRNoWiseCollectionReportListRRNo"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/RRno" />
+
+    <TextView
+        android:id="@+id/txtRRNoWiseCollectionReportListMode"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtRRNoWiseCollectionReportListRRNo"
+        android:layout_below="@+id/txtRRNoWiseCollectionReportListRRNo"
+        android:text="@string/Mode" />
+
+    <TextView
+        android:id="@+id/txtRRNoWiseCollectionReportListPaidAmount"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtRRNoWiseCollectionReportListMode"
+        android:layout_below="@+id/txtRRNoWiseCollectionReportListMode"
+        android:text="@string/PaidAmount" />
+    
+   </RelativeLayout>

@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/SBBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"    
+    tools:context=".ReportBillingActivity" >
+
+    <TextView
+        android:id="@+id/txtBillingReportMainHeading"
+        style="@style/SBLargeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"        
+        android:text="@string/BillingReport" />
+
+    <TextView
+        android:id="@+id/lblBillingReportMainPrintDate"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtBillingReportMainHeading"
+        android:text="@string/PrintDate" />
+
+    <TextView
+        android:id="@+id/txtBillingReportMainPrintDate"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_alignBaseline="@+id/lblBillingReportMainPrintDate"
+        android:layout_alignBottom="@+id/lblBillingReportMainPrintDate"
+        android:layout_toRightOf="@+id/lblBillingReportMainPrintDate"
+         />
+    
+     <TextView
+        android:id="@+id/lblBillingReportMainMRName"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+        android:layout_below="@+id/lblBillingReportMainPrintDate"
+        android:layout_alignLeft="@+id/lblBillingReportMainPrintDate"  
+        android:text="@string/MRName" />
+     
+     
+      <TextView
+        android:id="@+id/txtBillingReportMainMRName"
+        style="@style/SBSmallLabel"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblBillingReportMainMRName"
+        android:layout_alignBottom="@+id/lblBillingReportMainMRName"
+        android:layout_alignLeft="@+id/txtBillingReportMainPrintDate"
+       />
+    
+    
+    
+     <TextView
+        android:id="@+id/lblBillingReportMainTotal"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblBillingReportMainMRName"  
+        android:layout_below="@+id/lblBillingReportMainMRName"             
+        android:text="@string/TotalInstallations" />
+     
+      <TextView
+        android:id="@+id/txtBillingReportMainTotal"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblBillingReportMainTotal"
+        android:layout_alignBottom="@+id/lblBillingReportMainTotal"
+        android:layout_toRightOf="@+id/lblBillingReportMainTotal"
+         />
+      
+      <TextView
+        android:id="@+id/lblBillingReportMainBilled"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblBillingReportMainTotal"  
+        android:layout_below="@+id/lblBillingReportMainTotal"              
+        android:text="@string/Billed" />
+      
+      <TextView
+        android:id="@+id/txtBillingReportMainBilled"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblBillingReportMainBilled"
+        android:layout_alignBottom="@+id/lblBillingReportMainBilled"
+        android:layout_alignRight="@+id/txtBillingReportMainTotal"
+        />
+      
+       <TextView
+        android:id="@+id/lblBillingReportMainNotBilled"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblBillingReportMainBilled"  
+        android:layout_below="@+id/lblBillingReportMainBilled"              
+        android:text="@string/NotBilled" />
+       
+        <TextView
+        android:id="@+id/txtBillingReportMainNotBilled"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblBillingReportMainNotBilled"
+        android:layout_alignBottom="@+id/lblBillingReportMainNotBilled"
+        android:layout_alignRight="@+id/txtBillingReportMainTotal"
+         />
+        
+        
+
+    <ListView
+        android:id="@+id/lstBillingReportList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblBillingReportMainNotBilled"
+        android:layout_below="@+id/lblBillingReportMainNotBilled" >
+    </ListView>
+
+    <Button
+        android:id="@+id/btnBillingReportMainPrint"
+        style="@style/SBButton"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/lstBillingReportList"
+        android:layout_alignRight="@+id/lstBillingReportList"
+        android:text="@string/Print" />
+
+</RelativeLayout>

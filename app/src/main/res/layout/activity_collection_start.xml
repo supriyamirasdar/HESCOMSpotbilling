@@ -1,0 +1,261 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SBBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtCashCounter"
+            style="@style/SBRedLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/CCOpen" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblCCBatchNo"
+        style="@style/SBSmallLabel"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/BatchNo" />
+
+    <TextView
+        android:id="@+id/txtCCBatchNo"
+        style="@style/SBLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/NotAssigned" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblBatchDate"
+            style="@style/SBSmallLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/BatchDate" />
+
+        <TextView
+            android:id="@+id/txtBatchDate"
+            style="@style/SBSmallLabel"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="@string/NotAssigned" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblStartTime"
+            style="@style/SBSmallLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/StartTime" />
+
+        <TextView
+            android:id="@+id/lblEndTime"
+            style="@style/SBSmallLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/EndTime" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtStartTime"
+            style="@style/SBLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/NotAssigned" />
+
+        <TextView
+            android:id="@+id/txtEndTime"
+            style="@style/SBLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/NotAssigned" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblCashLimit"
+            style="@style/SBSmallLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/CashLimit" />
+
+        <TextView
+            android:id="@+id/lblCollectionMade"
+            style="@style/SBSmallLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/CollectionMade" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtCashLimit"
+            style="@style/SBLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/NotAssigned" />
+
+        <TextView
+            android:id="@+id/txtCollectionMade"
+            style="@style/SBLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/NotAssigned" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtCCDLimit"
+            style="@style/SBLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NotAssigned" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnRevenueReceipt"
+            style="@style/SBButton"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="@string/RevenueReceipts"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnMiscReceipt"
+            style="@style/SBButton"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/ASDReceipts"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnCloseCashCounter"
+            style="@style/SBButton"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/CloseCashCounter"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnExtendLimit"
+            style="@style/SBButton"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="Request Session"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnExtendSend"
+            style="@style/SBButton"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Send"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnExtendLimitVerify"
+            style="@style/SBButton"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="Verify Session"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/txtEnterCashLimit"
+            style="@style/SBTextBox"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:ems="6"
+            android:hint="EX.Cash"
+            android:inputType="number"
+            android:maxLength="6" />
+
+        <EditText
+            android:id="@+id/txtEnterChequeLimit"
+            style="@style/SBTextBox"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:ems="6"
+            android:hint="EX.Chq"
+            android:inputType="number"
+            android:maxLength="6" />
+
+        <EditText
+            android:id="@+id/txtEnterTimeLimit"
+            style="@style/SBTextBox"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:ems="5"
+            android:hint="EX.Time"
+            android:inputType="time"
+            android:maxLength="5" />
+    </LinearLayout>
+
+</LinearLayout>

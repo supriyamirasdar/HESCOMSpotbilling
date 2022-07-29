@@ -1,0 +1,262 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/SBBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"    
+    tools:context=".CollectionActivity" >
+    
+     <TextView
+        android:id="@+id/lblRevenueMisc"
+        style="@style/SBRedLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+         />
+        
+     <AutoCompleteTextView
+        android:id="@+id/autoCollectionSearch"
+        style="@style/SBAutoComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:layout_marginTop="20dp"     
+        android:ems="20"
+        android:hint="@string/Search"
+        android:scrollY="100sp" 
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        android:maxLength="20"
+        android:inputType="textCapCharacters">
+    </AutoCompleteTextView>
+    
+    <TextView
+        android:id="@+id/lblCollectionConnectionId"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"   
+        android:layout_alignLeft="@+id/autoCollectionSearch"
+        android:layout_below="@+id/autoCollectionSearch"          
+        android:text="@string/ConID" />
+
+    <TextView
+        android:id="@+id/txtCollectionConnectionId"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCollectionConnectionId"
+        android:layout_below="@+id/lblCollectionConnectionId"
+          />
+
+    <TextView
+        android:id="@+id/lblCollectionRRNo"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblCollectionConnectionId"
+        android:layout_marginLeft="120dp"
+        android:layout_toRightOf="@+id/lblCollectionConnectionId"
+        android:text="@string/RRno" />
+
+    <TextView
+        android:id="@+id/txtCollectionRRNo"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtCollectionConnectionId"
+        android:layout_alignBottom="@+id/txtCollectionConnectionId"
+        android:layout_alignLeft="@+id/lblCollectionRRNo"
+         />
+
+    <TextView
+        android:id="@+id/lblCollectionTariff"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCollectionConnectionId"
+        android:layout_below="@+id/lblCollectionConnectionId"
+        android:layout_marginTop="30dp"
+        android:text="@string/Tariff" />
+
+    <TextView
+        android:id="@+id/txtCollectionTariff"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCollectionTariff"
+        android:layout_below="@+id/lblCollectionTariff"
+		
+					        
+        />
+
+    <TextView
+        android:id="@+id/lblCollectionDueDate"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+        android:layout_alignLeft="@+id/lblCollectionRRNo"
+        android:layout_below="@+id/lblCollectionRRNo"
+         android:layout_marginTop="30dp"
+        android:text="@string/DueDate" />
+    
+     <TextView
+        android:id="@+id/txtCollectionDueDate"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCollectionDueDate"
+        android:layout_below="@+id/lblCollectionDueDate" 
+    	 />
+     
+     <TextView
+        android:id="@+id/lblCollectionLoad"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCollectionTariff"
+        android:layout_below="@+id/lblCollectionTariff"
+        android:layout_marginTop="30dp"
+        android:text="@string/Load" />
+
+    <TextView
+        android:id="@+id/txtCollectionLoad"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCollectionLoad"
+        android:layout_below="@+id/lblCollectionLoad" 
+        
+        />
+
+    <TextView
+        android:id="@+id/lblCollectionStatus"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblCollectionLoad"
+        android:layout_alignBottom="@+id/lblCollectionLoad"
+        android:layout_alignLeft="@+id/lblCollectionRRNo"
+        android:text="@string/Status" />
+
+    <TextView
+        android:id="@+id/txtCollectionStatus"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCollectionStatus"
+        android:layout_below="@+id/lblCollectionStatus"
+         />
+    
+    <TextView
+        android:id="@+id/lblCollectionArrears"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCollectionLoad"
+        android:layout_below="@+id/lblCollectionLoad"
+        android:layout_marginTop="30dp"
+        android:text="@string/Arrears" />
+
+    <TextView
+        android:id="@+id/txtCollectionArrears"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCollectionArrears"
+        android:layout_below="@+id/lblCollectionArrears" 
+       
+        />
+
+    <TextView
+        android:id="@+id/lblCollectionBillAmount"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblCollectionArrears"
+        android:layout_alignBottom="@+id/lblCollectionArrears"
+        android:layout_alignLeft="@+id/lblCollectionRRNo"
+        android:text="@string/TotalBillAmount" />
+
+    <TextView
+        android:id="@+id/txtCollectionBillAmount"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCollectionStatus"
+        android:layout_below="@+id/lblCollectionBillAmount"
+         />
+    
+     <TextView
+        android:id="@+id/lblCollectionPaymentMode"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCollectionArrears"
+        android:layout_below="@+id/lblCollectionArrears"
+        android:layout_marginTop="30dp"
+        android:text="@string/PaymentMode" />
+
+     <Button
+        android:id="@+id/btnCollectionCash"
+        style="@style/SBButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"        
+         android:layout_alignLeft="@+id/lblCollectionPaymentMode"
+         android:layout_below="@+id/lblCollectionPaymentMode"
+         android:layout_marginTop="25dp"
+         android:text="@string/Cash" />
+
+     <Button
+         android:id="@+id/btnCollectionCheque"
+         style="@style/SBButton"
+         android:layout_width="100dp"
+        android:layout_height="40dp" 
+        android:layout_alignBaseline="@+id/btnCollectionCash"
+        android:layout_alignBottom="@+id/btnCollectionCash"        
+         android:layout_alignLeft="@+id/lblCollectionBillAmount"
+         android:text="@string/ChequeDD" />
+     
+     <Button
+        android:id="@+id/btnCollectionPrev"
+        style="@style/SBButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btnCollectionCash"
+        android:layout_alignLeft="@+id/btnCollectionCash"
+        android:layout_marginTop="5dp"
+        android:text="@string/prev" />
+
+    <Button
+        android:id="@+id/btnCollectionNext"
+        style="@style/SBButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/btnCollectionPrev"
+        android:layout_alignBottom="@+id/btnCollectionPrev"
+        android:layout_alignLeft="@+id/btnCollectionCheque"
+        android:text="@string/next" />
+
+    <Button
+        android:id="@+id/btnCollectionReprint"
+        style="@style/SBButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/lblCollectionPaymentMode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/Reprint" />
+
+  <Button
+      android:id="@+id/btnCollectionLatePayment"
+      style="@style/SBButton"
+      android:layout_width="100dp"
+      android:layout_height="40dp"
+      android:layout_alignLeft="@+id/lblCollectionBillAmount"
+      android:layout_alignTop="@+id/lblCollectionPaymentMode"           
+      android:textSize="12sp"
+      android:visibility="invisible"
+      android:text="Non Payment" />
+        
+</RelativeLayout>

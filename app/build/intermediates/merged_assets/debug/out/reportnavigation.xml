@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created Nitish 03/03/2014  -->
+<DropDownList>
+	<ddlItem>
+		<id>in.nsoft.hescomspotbilling.ReportBillingActivity</id>
+		<value>Billing Report</value>
+	</ddlItem>
+	<ddlItem>
+		<id>in.nsoft.hescomspotbilling.ReportNotBilledActivity</id>
+		<value>Not Billed Report</value>
+	</ddlItem>
+	<ddlItem>
+		<id>in.nsoft.hescomspotbilling.ReportStatusActivity</id>
+		<value>Status Report</value>
+	</ddlItem>	
+		<ddlItem>
+		<id>in.nsoft.hescomspotbilling.ReportGPRSActivity</id>
+		<value>GPRS Status Report</value>
+	</ddlItem>		
+	<ddlItem>
+		<id>in.nsoft.hescomspotbilling.ReportTPFeederActivity</id>
+		<value>Today Billed Report</value>
+	</ddlItem>	
+	<ddlItem>
+	    <id>in.nsoft.hescomspotbilling.ReportTariffwiseActivity</id>
+	    <value>Tariffwise Report</value>
+	</ddlItem>
+	  <ddlItem>
+		<id>in.nsoft.hescomspotbilling.ReportCashCounterDetailsActivity</id>
+		<value>Cash Counter Details</value>
+	</ddlItem>
+	<ddlItem>
+		<id>in.nsoft.hescomspotbilling.ReportBescomCopyPrintActivity</id>
+		<value>HESCOM Copy Print</value>
+	</ddlItem>
+	<ddlItem>
+		<id>in.nsoft.hescomspotbilling.ReportCollectionDetailsActivity</id>
+		<value>Collection Details Report</value>
+	</ddlItem>
+	<ddlItem>
+		<id>in.nsoft.hescomspotbilling.ReportDayWiseCollectionActivity</id>
+		<value>Day Wise Collection Report</value>
+	</ddlItem>	
+	<ddlItem>
+		<id>in.nsoft.hescomspotbilling.ReportRRNoWiseCollectionActivity</id>
+		<value>RRNo Wise Collection Report</value>
+	</ddlItem>  
+	
+</DropDownList>

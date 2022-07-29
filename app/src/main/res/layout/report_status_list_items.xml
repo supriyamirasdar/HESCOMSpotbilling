@@ -1,0 +1,277 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/SBBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+     <TextView
+        android:id="@+id/lblStatusReportListBilledDate"
+         style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"        
+        android:layout_marginTop="5dp"       
+        android:text="@string/BilledDate" />
+
+    <TextView
+        android:id="@+id/txtStatusReportListBilledDate"
+        style = "@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lblStatusReportListBilledDate"
+        android:layout_toRightOf="@+id/lblStatusReportListBilledDate"
+        android:layout_marginLeft="25dp"
+        />
+
+   
+
+    <TextView
+        android:id="@+id/lblStatusReportListBilled"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblStatusReportListBilledDate"
+        android:layout_below="@+id/lblStatusReportListBilledDate"
+        android:text="@string/Billed" />
+
+    <TextView
+        android:id="@+id/txtStatusReportListBilled"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblStatusReportListBilled"
+        android:layout_alignBottom="@+id/lblStatusReportListBilled"
+        android:layout_alignRight="@+id/txtStatusReportListBilledDate"
+         />
+    
+   
+ <TextView
+          android:id="@+id/lblStatusReportListNormal"
+          style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"          
+          android:layout_alignLeft="@+id/lblStatusReportListBilled"
+          android:layout_below="@+id/lblStatusReportListBilled"
+          android:text="@string/Normal" />
+
+      <TextView
+          android:id="@+id/txtStatusReportListNormal"
+          style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/lblStatusReportListNormal"          
+          android:layout_alignRight="@+id/txtStatusReportListBilled"
+           />
+
+      <TextView
+          android:id="@+id/lblStatusReportListDL"
+           style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/lblStatusReportListNormal"
+          android:layout_below="@+id/lblStatusReportListNormal"
+          android:text="@string/DL" />
+
+      <TextView
+          android:id="@+id/txtStatusReportListDL"
+          style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/lblStatusReportListDL"          
+          android:layout_alignRight="@+id/txtStatusReportListNormal"
+           />
+      
+      <TextView
+          android:id="@+id/lblStatusReportListMNR"
+           style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/lblStatusReportListNormal"
+          android:layout_below="@+id/lblStatusReportListDL"
+          android:text="@string/MNR" />
+      
+       <TextView
+          android:id="@+id/txtStatusReportListMNR"
+          style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"          
+          android:layout_alignBottom="@+id/lblStatusReportListMNR"
+          android:layout_alignRight="@+id/txtStatusReportListNormal"
+          />
+       
+       <TextView
+          android:id="@+id/lblStatusReportListDO"
+          style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/lblStatusReportListNormal"
+          android:layout_below="@+id/lblStatusReportListMNR"
+          android:text="@string/DO" />
+       
+        <TextView
+          android:id="@+id/txtStatusReportListDO"
+          style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"          
+          android:layout_alignBottom="@+id/lblStatusReportListDO"
+          android:layout_alignRight="@+id/txtStatusReportListNormal"
+           />
+        
+         <TextView
+          android:id="@+id/lblStatusReportListMCH"
+           style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/lblStatusReportListNormal"
+          android:layout_below="@+id/lblStatusReportListDO"
+          android:text="@string/MCH" />
+       
+        <TextView
+          android:id="@+id/txtStatusReportListMCH"
+          style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"          
+          android:layout_alignBottom="@+id/lblStatusReportListMCH"
+          android:layout_alignRight="@+id/txtStatusReportListNormal"
+          />
+        
+         <TextView
+          android:id="@+id/lblStatusReportListRNF"
+           style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/lblStatusReportListNormal"
+          android:layout_below="@+id/lblStatusReportListMCH"
+          android:text="@string/RNF" />
+       
+        <TextView
+          android:id="@+id/txtStatusReportListRNF"
+          style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"          
+          android:layout_alignBottom="@+id/lblStatusReportListRNF"
+          android:layout_alignRight="@+id/txtStatusReportListNormal"
+           />
+        
+        <TextView
+          android:id="@+id/lblStatusReportListVA"
+           style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/lblStatusReportListNormal"
+          android:layout_below="@+id/lblStatusReportListRNF"
+          android:text="@string/VA" />
+       
+        <TextView
+          android:id="@+id/txtStatusReportListVA"
+          style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"          
+          android:layout_alignBottom="@+id/lblStatusReportListVA"
+          android:layout_alignRight="@+id/txtStatusReportListNormal"
+           />
+        
+        <TextView
+          android:id="@+id/lblStatusReportListDIS"
+           style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/lblStatusReportListNormal"
+          android:layout_below="@+id/lblStatusReportListVA"
+          android:text="@string/DIS" />
+       
+        <TextView
+          android:id="@+id/txtStatusReportListDIS"
+          style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"          
+          android:layout_alignBottom="@+id/lblStatusReportListDIS"
+          android:layout_alignRight="@+id/txtStatusReportListNormal"
+           />
+        
+         <TextView
+          android:id="@+id/lblStatusReportListMS"
+           style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/lblStatusReportListNormal"
+          android:layout_below="@+id/lblStatusReportListDIS"
+          android:text="@string/MS" />
+       
+        <TextView
+          android:id="@+id/txtStatusReportListMS"
+          style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"          
+          android:layout_alignBottom="@+id/lblStatusReportListMS"
+          android:layout_alignRight="@+id/txtStatusReportListNormal"
+           />
+        
+        <TextView
+          android:id="@+id/lblStatusReportListDIR"
+           style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/lblStatusReportListNormal"
+          android:layout_below="@+id/lblStatusReportListMS"
+          android:text="@string/DIR" />
+       
+        <TextView
+          android:id="@+id/txtStatusReportListDIR"
+          style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"          
+          android:layout_alignBottom="@+id/lblStatusReportListDIR"
+          android:layout_alignRight="@+id/txtStatusReportListNormal"
+           />
+        
+         <TextView
+          android:id="@+id/lblStatusReportListMB"
+           style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/lblStatusReportListNormal"
+          android:layout_below="@+id/lblStatusReportListDIR"
+          android:text="@string/MB" />
+       
+        <TextView
+          android:id="@+id/txtStatusReportListMB"
+          style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"          
+          android:layout_alignBottom="@+id/lblStatusReportListMB"
+          android:layout_alignRight="@+id/txtStatusReportListNormal"
+           />
+        
+         <TextView
+          android:id="@+id/lblStatusReportListNT"
+           style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/lblStatusReportListNormal"
+          android:layout_below="@+id/lblStatusReportListMB"
+          android:text="@string/NT" />
+       
+        <TextView
+          android:id="@+id/txtStatusReportListNT"
+          style="@style/SBLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"          
+          android:layout_alignBottom="@+id/lblStatusReportListNT"
+          android:layout_alignRight="@+id/txtStatusReportListNormal"
+           />   
+         
+    
+</RelativeLayout>
+    
+    
+
+   
+         
+    
+
+    

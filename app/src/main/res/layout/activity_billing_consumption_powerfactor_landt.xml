@@ -1,0 +1,232 @@
+
+<!-- Nitish 24-03-2014 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/SBBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"   
+    tools:context=".BillingConsumption_LandT" >
+
+   
+     <TextView
+        android:id="@+id/lblMterType"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"      
+        android:text="@string/MeterType" />
+    
+      <TextView
+        android:id="@+id/lblwelcome"
+        style="@style/SBRedLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"   
+         android:layout_marginTop="15dp"     
+        android:text="@string/connectOptical" />
+    
+     <TextView
+        android:id="@+id/lblBillConsumRRNo"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/RRno" />
+
+    <TextView
+        android:id="@+id/txtBillConsumRRNo"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblBillConsumRRNo"
+        android:layout_below="@+id/lblBillConsumRRNo"
+        android:layout_marginLeft="2dp" />
+
+    <TextView
+        android:id="@+id/lblBillConsumPrevReason"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lblBillConsumRRNo"
+        android:layout_marginLeft="125dp"
+        android:layout_toRightOf="@+id/lblBillConsumRRNo"
+        android:text="@string/PrevReason" />
+
+    <TextView
+        android:id="@+id/txtBillConsumPrevReason"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblBillConsumPrevReason"
+        android:layout_below="@+id/lblBillConsumPrevReason" />
+
+    <TextView
+        android:id="@+id/lblBillConsumStatus"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblBillConsumRRNo"
+        android:layout_below="@+id/txtBillConsumRRNo"
+        android:layout_marginTop="5dp"
+        android:text="@string/Status" />
+
+    <Spinner
+        android:id="@+id/ddlBillConsumStatus"
+        style="@style/SBSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblBillConsumStatus"
+        android:layout_below="@+id/lblBillConsumStatus" />
+
+    <TextView
+        android:id="@+id/lblBillConsumStatusReading"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ddlBillConsumStatus"
+        android:layout_below="@+id/ddlBillConsumStatus"
+        android:text="@string/Reading" />
+
+    <TextView
+        android:id="@+id/txtBillConsumStatusReading"
+        style="@style/SBLabel"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblBillConsumStatusReading"
+        android:layout_below="@+id/lblBillConsumStatusReading" >
+    </TextView>
+
+    <Button
+        android:id="@+id/btnReadLT"
+        style="@style/SBButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/lblBillConsumPrevReason"
+        android:layout_below="@+id/lblBillConsumStatusReading"
+        android:text="ReadLT" />
+
+    <TextView
+        android:id="@+id/lblBillConsumMD"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblBillConsumStatusReading"
+        android:layout_below="@+id/txtBillConsumStatusReading"
+        android:layout_marginTop="20dp"
+        android:text="@string/MD" />
+
+    <EditText
+        android:id="@+id/txtBillConsumMD"
+        style="@style/SBTextBox"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblBillConsumMD"
+        android:layout_below="@+id/lblBillConsumMD"
+        android:ems="10"
+        android:hint="@string/BillConsumption_MD"
+        android:inputType="numberDecimal"
+        android:maxLength="12" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/lblBillConsumPowerFactor"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblBillConsumMD"
+        android:layout_alignBottom="@+id/lblBillConsumMD"
+        android:layout_alignLeft="@+id/lblBillConsumPrevReason"
+        android:text="@string/PowerFactor" />
+
+    <EditText
+        android:id="@+id/txtBillConsumPowerFactor"
+        style="@style/SBTextBox"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblBillConsumPowerFactor"
+        android:layout_below="@+id/lblBillConsumPowerFactor"
+        android:ems="10"
+        android:hint="@string/BillConsumption_PowerFactor"
+        android:inputType="numberDecimal"
+        android:maxLength="4" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/lblBillConsumConsumption"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblBillConsumMD"
+        android:layout_below="@+id/txtBillConsumMD"
+        android:layout_marginTop="5sp"
+        android:text="@string/Consumption" />
+
+    <TextView
+        android:id="@+id/txtBillConsumConsumption"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblBillConsumConsumption"
+        android:layout_below="@+id/lblBillConsumConsumption" />
+
+    <TextView
+        android:id="@+id/lblBillConsumBillAmount"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblBillConsumConsumption"
+        android:layout_below="@+id/txtBillConsumConsumption"
+        android:layout_marginTop="10dp"
+        android:text="@string/BillAmount" />
+
+    <TextView
+        android:id="@+id/txtBillConsumBillAmount"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblBillConsumBillAmount"
+        android:layout_below="@+id/lblBillConsumBillAmount" />
+
+    <Button
+        android:id="@+id/btnBillConsumProcess"
+        style="@style/SBButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/lblBillConsumPowerFactor"
+        android:layout_alignTop="@+id/lblBillConsumConsumption"
+        android:text="@string/Process" />
+
+    <Button
+        android:id="@+id/btnBillConsumSavePrint"
+        style="@style/SBButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btnBillConsumProcess"
+        android:layout_alignTop="@+id/lblBillConsumBillAmount"
+        android:text="@string/Save" />
+
+    <TextView
+        android:id="@+id/lblBillConsumptionMtd"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblBillConsumPrevReason"
+        android:layout_alignTop="@+id/lblBillConsumStatus" />
+
+   
+
+</RelativeLayout>

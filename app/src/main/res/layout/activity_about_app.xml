@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+     style="@style/SBBackground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblAbout"
+        style="@style/SBLargeLabel"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/About" />
+
+     <TextView
+        android:id="@+id/lblAppVersionCode"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/About" />
+    <TextView
+        android:id="@+id/lblAppVersionName"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/About" />
+
+    <TextView
+        android:id="@+id/lblIMEINo"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/About" />
+
+    <TextView
+        android:id="@+id/lblSIMSerialNo"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/About" />
+    
+     <TextView
+        android:id="@+id/lblFileVersion"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/About" />
+     
+     <TextView
+        android:id="@+id/lblBatteryLevel"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/About" />
+
+    <TextView
+        android:id="@+id/lblPoweredBy"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/PoweredBy" />
+    <TextView
+        android:id="@+id/lblPoweredByName"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Nsoft" 
+        android:gravity="center"/>
+</LinearLayout>

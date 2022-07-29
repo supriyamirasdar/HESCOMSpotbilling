@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     style="@style/SBBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"    
+    tools:context=".CollectionCashActivity" >
+    
+     <TextView
+        android:id="@+id/lblRevenueMisc"
+        style="@style/SBRedLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+         />
+
+     <TextView
+        android:id="@+id/lblCollectionCashConnectionId"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"               
+        android:text="@string/ConID" />
+
+    <TextView
+        android:id="@+id/txtCollectionCashConnectionId"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCollectionCashConnectionId"
+        android:layout_below="@+id/lblCollectionCashConnectionId"
+          />
+
+    <TextView
+        android:id="@+id/lblCollectionCashRRNo"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblCollectionCashConnectionId"
+        android:layout_marginLeft="120dp"
+        android:layout_toRightOf="@+id/lblCollectionCashConnectionId"
+        android:text="@string/RRno" />
+
+    <TextView
+        android:id="@+id/txtCollectionCashRRNo"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtCollectionCashConnectionId"
+        android:layout_alignBottom="@+id/txtCollectionCashConnectionId"
+        android:layout_alignLeft="@+id/lblCollectionCashRRNo"
+         />
+    
+     <TextView
+        android:id="@+id/lblCollectionCashArrears"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCollectionCashConnectionId"
+        android:layout_below="@+id/lblCollectionCashConnectionId"
+        android:layout_marginTop="40dp"
+        android:text="@string/Arrears" />
+
+    <TextView
+        android:id="@+id/txtCollectionCashArrears"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCollectionCashArrears"
+        android:layout_below="@+id/lblCollectionCashArrears" 
+        
+        />
+
+    <TextView
+        android:id="@+id/lblCollectionCashBillAmount"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblCollectionCashArrears"
+        android:layout_alignBottom="@+id/lblCollectionCashArrears"
+        android:layout_alignLeft="@+id/lblCollectionCashRRNo"
+        android:text="@string/TotalBillAmount" />
+
+    <TextView
+        android:id="@+id/txtCollectionCashBillAmount"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCollectionCashRRNo"
+        android:layout_below="@+id/lblCollectionCashBillAmount"
+         />
+    
+    <TextView
+        android:id="@+id/lblCollectionCashPaymentAmount"
+        style="@style/SBSmallLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCollectionCashArrears"
+        android:layout_below="@+id/lblCollectionCashArrears"
+        android:layout_marginTop="50dp"
+        android:text="@string/PaymentAmount" />
+    
+     <EditText
+        android:id="@+id/txtCollectionCashPaymentAmount"
+        style="@style/SBTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblCollectionCashPaymentAmount"
+        android:layout_below="@+id/lblCollectionCashPaymentAmount"       
+        android:ems="20"
+        android:hint="@string/PaymentAmountInINR"
+        android:maxLength="5"
+        android:inputType="number" >
+    </EditText>
+
+     <Button
+         android:id="@+id/btnCollectionCashConfirm"
+         style="@style/SBButton"
+         android:layout_width="100dp"
+         android:layout_height="40dp" 
+         android:layout_below="@+id/txtCollectionCashPaymentAmount"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="30dp"
+         android:text="@string/Confirm" />
+
+</RelativeLayout>

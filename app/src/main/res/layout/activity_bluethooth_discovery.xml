@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/loginbackground"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblSpotBilling"
+            style="@style/SBLargeLabelWhite"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:text="@string/SpotBilling" />
+
+        <TextView
+            android:id="@+id/lblSBBlinkText"
+            style="@style/SBLargeLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    
+
+    <Button
+        android:id="@+id/btnPairBluetooth"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bluetooth" />
+
+    <TextView
+        android:id="@+id/lblPairBluetooth"
+        style="@style/SBLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12sp"
+        android:gravity="center"
+        android:text="@string/Bluetooth" />
+
+   
+</LinearLayout>

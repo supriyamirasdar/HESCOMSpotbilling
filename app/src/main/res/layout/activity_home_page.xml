@@ -1,0 +1,54 @@
+
+<!-- Nitish 24-02-2014 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    style="@style/SBBackground"
+    tools:context=".HomePage" >
+
+    <Button
+        android:id="@+id/btnHomeBilling"
+        style="@style/SBButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/Billing" />
+
+    <Button
+        android:id="@+id/btnHomeCollection"
+        style="@style/SBButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnHomeBilling"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/btnHomeBilling"
+        android:text="@string/Collections" />
+
+    <Button
+        android:id="@+id/btnHomeReports"
+         style="@style/SBButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnHomeBilling"
+        android:layout_below="@+id/btnHomeBilling"
+        android:layout_marginTop="50dp"
+        android:text="@string/Reports" />
+
+    <Button
+        android:id="@+id/btnHomeOthers"
+        style="@style/SBButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnHomeCollection"
+        android:layout_alignTop="@+id/btnHomeReports"
+        android:text="@string/Others" />
+
+</RelativeLayout>

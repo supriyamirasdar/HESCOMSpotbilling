@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/SBBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+     <TextView
+        android:id="@+id/lblNotBilledReportListConId"
+         style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"        
+        android:layout_marginTop="5dp"       
+        android:text="@string/ConID" />
+
+    <TextView
+        android:id="@+id/txtNotBilledReportListConId"
+        style = "@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lblNotBilledReportListConId"
+        android:layout_toRightOf="@+id/lblNotBilledReportListConId"
+        android:layout_marginLeft="60dp"
+        /> 
+       
+
+    <TextView
+        android:id="@+id/lblNotBilledReportListRRNo"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblNotBilledReportListConId"
+        android:layout_below="@+id/lblNotBilledReportListConId"
+        android:text="@string/RRno" />
+
+    <TextView
+        android:id="@+id/txtNotBilledReportListRRNo"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNotBilledReportListRRNo"
+        android:layout_alignBottom="@+id/lblNotBilledReportListRRNo"
+        android:layout_alignLeft="@+id/txtNotBilledReportListConId"
+         />
+    
+    <TextView
+        android:id="@+id/lblNotBilledReportListTourPlanId"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblNotBilledReportListRRNo"
+        android:layout_below="@+id/lblNotBilledReportListRRNo"
+        android:text="@string/TourPlanId" />
+
+    <TextView
+        android:id="@+id/txtNotBilledReportListTourPlanId"
+        style="@style/SBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNotBilledReportListTourPlanId"
+        android:layout_alignBottom="@+id/lblNotBilledReportListTourPlanId"
+        android:layout_alignLeft="@+id/txtNotBilledReportListRRNo"
+        />
+    
+    
+    
+   </RelativeLayout>

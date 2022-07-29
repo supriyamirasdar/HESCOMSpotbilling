@@ -1,0 +1,226 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/txtReportCollectionDetails"
+        style="@style/SBLargeLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/CollectionDetailsReport" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblReportCollectionDetailsPrintDate"
+            style="@style/SBLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"           
+            android:text="@string/PrintDate" />
+
+        <TextView
+            android:id="@+id/txtReportCollectionDetailsPrintDate"
+            style="@style/SBLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblReportCollectionDetailsDate"
+            style="@style/SBLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/RDate" />
+
+        <TextView
+            android:id="@+id/txtReportCollectionDetailsDate"
+            style="@style/SBLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblReportCollectionDetailsMRCode"
+            style="@style/SBLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/MRCode" />
+
+        <TextView
+            android:id="@+id/txtReportCollectionDetailsMRCode"
+            style="@style/SBLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblReportCollectionDetailsBilled"
+            style="@style/SBLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"            
+            android:text="@string/Billed" />
+
+        <TextView
+            android:id="@+id/txtReportCollectionDetailsBilled"
+            style="@style/SBLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblReportCollectionDetailsTotalAmt"
+            style="@style/SBLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/TotalAmount" />
+
+        <TextView
+            android:id="@+id/txtReportCollectionDetailsTotalAmt"
+            style="@style/SBLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblReportCollectionDetailsTotalRevReceipts"
+            style="@style/SBLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"        
+            android:text="@string/RevenueReceipts" />
+
+        <TextView
+            android:id="@+id/txtReportCollectionDetailsTotalRevReceipts"
+            style="@style/SBLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblReportCollectionDetailsTotalMISCReceipts"
+            style="@style/SBLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/MiscReceipts" />
+
+        <TextView
+            android:id="@+id/txtReportCollectionDetailsTotalMISCReceipts"
+            style="@style/SBLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblReportCollectionDetailsTotalRevAmount"
+            style="@style/SBLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/RevenueAmt" />
+
+        <TextView
+            android:id="@+id/txtReportCollectionDetailsTotalRevAmount"
+            style="@style/SBLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblReportCollectionDetailsTotalMISCAmount"
+            style="@style/SBLabel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/MISCAmt" />
+
+        <TextView
+            android:id="@+id/txtReportCollectionDetailsTotalMISCAmount"
+            style="@style/SBLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtReceipts"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/Receipts" />
+
+    <TextView
+        android:id="@+id/txtCollection"
+        style="@style/SBSmallLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CollAmount" />
+
+    <Button
+        android:id="@+id/btnReportCollectionDetailsPrint"
+        style="@style/SBButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/Print" />
+
+</LinearLayout>

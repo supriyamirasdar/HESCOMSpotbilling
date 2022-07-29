@@ -1,0 +1,470 @@
+[
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_about_app.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_about_app.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_squarebtn.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\squarebtn.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_report_status_list_items.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\report_status_list_items.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report_cash_counter_details.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_report_cash_counter_details.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_spinnersquare.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\spinnersquare.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_btn2.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable\\custom_btn2.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_report_gprs_notsent_list_items.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\report_gprs_notsent_list_items.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report_status.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_report_status.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_disconnectiondialog.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\disconnectiondialog.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_exit_usb.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_exit_usb.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report_collection_details.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_report_collection_details.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_billingdialoginflator_lt.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\billingdialoginflator_lt.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_threeitemlist.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\threeitemlist.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_write_file_to_sdcard.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_write_file_to_sdcard.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bluetooth.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\bluetooth.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report_gprs.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_report_gprs.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bluethooth_discovery.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_bluethooth_discovery.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_progressbar.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable\\custom_progressbar.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_file.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\ic_file.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_infowindow_layout.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\infowindow_layout.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_btn.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable\\custom_btn.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_report_daywisecollection_list.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\report_daywisecollection_list.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_download_dbto_sdcard.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_download_dbto_sdcard.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_collection__late_payment.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_collection__late_payment.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_genericauto.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\genericauto.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tick_mark.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\tick_mark.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_report.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\report.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_billing_start.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_billing_start.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\menu_login.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mobile_status.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_mobile_status.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_others1.jpeg.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\others1.jpeg"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_billing.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_billing.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_disconnection.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\disconnection.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable_editview_style.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable\\editview_style.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\xml_accessory_filter.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\xml\\accessory_filter.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable\\border.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_s.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\s.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_portraitcamera.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\portraitcamera.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_folder.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\ic_folder.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report_day_wise_collection.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_report_day_wise_collection.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_uartloopback.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_uartloopback.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_button_yellow.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable\\custom_button_yellow.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_other_browse_list.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_other_browse_list.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable_toast_border.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable\\toast_border.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_button_purple.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable\\custom_button_purple.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_other_browse_list_items.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\other_browse_list_items.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_roundbtnblue.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\roundbtnblue.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_report_notbilled_list.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\report_notbilled_list.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report_tpfeeder.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_report_tpfeeder.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_billing_consumption_powerfactor.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_billing_consumption_powerfactor.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_usbserial_main.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_usbserial_main.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_disconnection.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_disconnection.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_genericddl.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\genericddl.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable\\round.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_refresh.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\refresh.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_report_billing_list.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\report_billing_list.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_collection_cash.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_collection_cash.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_billingdialoginflator.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\billingdialoginflator.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_gridhome.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\gridhome.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report_rrno_wise_collection.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_report_rrno_wise_collection.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cash_counter_sync.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_cash_counter_sync.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_button_green.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable\\custom_button_green.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_collection1.jpg.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\collection1.jpg"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report_not_billed.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_report_not_billed.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_fourtariffitemlist.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\fourtariffitemlist.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_camera.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\camera.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_button_red.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable\\custom_button_red.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report_day_wise_collection_list.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_report_day_wise_collection_list.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\menu_spotbillingmenu.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\menu\\spotbillingmenu.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_download_apk.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_download_apk.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable_squarebtn.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable\\squarebtn.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_billing_landt.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_billing_landt.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_collection_start.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_collection_start.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\xml_filepaths.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\xml\\filepaths.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_button_black.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable\\custom_button_black.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report_list.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_report_list.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ok.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\ok.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_simplelist.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\simplelist.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report_billing.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_report_billing.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_billing_consumer_details.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_billing_consumer_details.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_loginbackground.jpg.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\loginbackground.jpg"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report_gprsnot_sent_list.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_report_gprsnot_sent_list.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mybtnselect.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable\\mybtnselect.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mcc_help.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_mcc_help.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_collection_cheque.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_collection_cheque.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_grid.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\row_grid.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cross_mark.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\cross_mark.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_download_file_frome_server.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_download_file_frome_server.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_billing1.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\billing1.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_report_rrnowise_collection.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\report_rrnowise_collection.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report_status_list.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_report_status_list.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_collection.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_collection.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_download_app.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_download_app.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_billing_meter_details_capture.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_billing_meter_details_capture.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report_bescom_copy_print.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_report_bescom_copy_print.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_button_blue.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable\\custom_button_blue.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_map.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_disc.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\disc.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home_page.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_home_page.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_billingreason.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\billingreason.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_other_list_items.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\other_list_items.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_facial.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_facial.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_other_browse.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_other_browse.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_other_list.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_other_list.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cancel.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\cancel.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report_tariffwise.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_report_tariffwise.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_roundbtnbluedark.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\roundbtnbluedark.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_landscapecamera.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\landscapecamera.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_autocross.png.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\drawable-mdpi\\autocross.png"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_billing_consumption_powerfactor_landt.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_billing_consumption_powerfactor_landt.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_generictoast.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\generictoast.xml"
+    },
+    {
+        "merged": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_about_mcc.xml.flat",
+        "source": "D:\\WorkSpaceStudio\\HESCOMSpotbilling\\app\\src\\main\\res\\layout\\activity_about_mcc.xml"
+    }
+]
